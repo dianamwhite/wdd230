@@ -1,4 +1,4 @@
-@media only screen and (min-width: 32.5em){
+@media only screen and (min-width: 32.5em) {
 
 h1 {
     text-align: center; 
@@ -10,10 +10,14 @@ h2{
     padding: 10px;
     font-size: 20px;
 }
-
-ul{
-    font-size: 15px;
+img{
+    height: 220px;
 }
+ul{
+    font-size: 10px;
+}
+
+
 
 footer{
     border-radius: 10px;

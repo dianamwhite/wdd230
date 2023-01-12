@@ -1,5 +1,13 @@
 
+body{
+    background-color: #FEFAE0;
+    width: 50%;
+    margin: auto;
+}
+
 header {
+    position: relative;
+    align-items: center;
     background-color: #BC6C25;
     width:100%;
     border-radius: 15px;
@@ -52,3 +60,5 @@ footer{
     border-radius: 15px;
     text-align: center;
 }
+
+
