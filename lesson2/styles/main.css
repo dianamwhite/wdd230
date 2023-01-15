@@ -6,21 +6,26 @@ header {
 
 main{
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background-color: antiquewhite;
+    grid-template-columns: 1fr;
+    background-color:blanchedalmond;
+    align-items: center;
+}
+
+a{
+    padding: 35px;
 }
 
 h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 45px;
     text-align: center;
     color: antiquewhite;
 } 
 
 h2{
     font-family: 'Montserrat', sans-serif;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 100;
     padding: 5px;
     text-align: center;
@@ -29,36 +34,40 @@ h2{
 h3{
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 20px;
+    text-align: center;
     color: whitesmoke;
     background-color: #304c41;
     padding: 10px;
-    margin-top: 20px;
-    margin-bottom: -30px;
+    margin: auto;
 }
 
 h4{
     font-family: 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 15px;
     padding:10px;
     text-align: center;
+    
 }
 
 img{
     width: 80%;
-    margin: 15px;
+    padding-left: 35px;
     
 }
 
 #first, #second, #third{
     width: 70%;
-    margin-left: 10px;
-    margin-right: 10px ;
-    margin-bottom: 10px;
-    padding: 5px;
-    text-align: center;
+    margin: 25px;
+    padding: 25px;
+    text-align: justify;
+    background-color: whitesmoke;
 }
+#first, #second, #third p{
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif
 
+}
 #box1, #box2, #box3 {
     background-color: whitesmoke;
 
@@ -66,7 +75,11 @@ img{
 
 footer{
     background-color: #BC6C25;
-    padding: 10px;
     color: antiquewhite;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p{
     text-align: center;
 }
