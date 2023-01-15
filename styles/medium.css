@@ -3,15 +3,14 @@
     width: 100%;
     margin: auto;
   }
+  
   header {
-   padding-right: 2%;
-   
+   padding-right: 2%; 
   }
 
   h1 {
       font-size: 40px;
       font-family: "Playfair Display", serif;
-
     }
 
   h2 {
@@ -20,8 +19,8 @@
   img {
     border: 4px solid #fefae0;
     height: 200px;
-
   }
+
   #imph{
     display: flex;
     justify-content: center;
