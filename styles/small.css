@@ -1,12 +1,12 @@
 body {
-  background-color: #fefae0;
+  background-color: #F7EDE2;
   width: 80%;
   margin: auto;
 }
 
 header {
   align-items: center;
-  background-color: #bc6c25;
+  background-color: #84A59D;
   border-radius: 15px;
 }
 nav {
@@ -27,9 +27,9 @@ img {
 
 h1 {
   text-align: left;
-  font-size: 30px;
+  font-size: 35px;
   font-family: "Playfair Display", serif;
-  color: #fefae0;
+  color: #F7EDE2;
   padding-top: 60px;
 }
 
@@ -43,10 +43,10 @@ h2 {
 
 ul {
   text-align:center;
-  color: #283618;
+  color: black;
   list-style: none;
   font-family: "Libre Franklin", sans-serif;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 li{
@@ -56,12 +56,14 @@ li{
 }
 
 footer {
-  background-color: #bc6c25;
-  color: #fefae0;
+  grid-area:auto;
+  background-color: #FAD8BC;
+  color: black;
   font-family: "Playfair Display", serif;
-  padding: 10px;
+  padding: 15px;
   border-radius: 15px;
   text-align: center;
+  font-size: 20px;
 }
 
 p{
