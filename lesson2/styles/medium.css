@@ -6,13 +6,22 @@
     h1{
         font-size: 80px;
     }
+    h2{
+        font-size: 35px;
+    font-weight: 300;
+    }
+
     h3{
         text-align: center;
         font-size:20px ;
     }
     #first, #second, #third p{
-        font-size: 14px;
+        font-size: 15px;
     
+    }
+
+    footer{
+        font-size: 21px;
     }
 
 }

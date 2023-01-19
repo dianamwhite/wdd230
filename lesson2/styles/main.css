@@ -1,13 +1,13 @@
 
 header {
-    background-color: #BC6C25;
+    background-color: #84A59D;
     padding: 10px;
 }
 
 main{
     display:grid;
     grid-template-columns: 1fr;
-    background-color:blanchedalmond;
+    background-color:#F7EDE2;
     align-items: center;
 }
 
@@ -20,16 +20,16 @@ h1{
     font-weight: 400;
     font-size: 45px;
     text-align: center;
-    color: antiquewhite;
+    color: black;
 } 
 
 h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
-    font-weight: 100;
+    font-weight: 300;
     padding: 5px;
     text-align: center;
-    color: antiquewhite;
+    color: Black;
 }
 h3{
     font-family: 'Montserrat', sans-serif;
@@ -74,8 +74,8 @@ img{
 }
 
 footer{
-    background-color: #BC6C25;
-    color: antiquewhite;
+    background-color: #FAD8BC;
+    color: black;
     text-align: center;
     padding: 20px;
 }
