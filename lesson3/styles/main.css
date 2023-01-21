@@ -48,9 +48,8 @@ h2{
  }
 
  #block3 img{
-     border: 2px solid black;
-     width: 20%;
-     padding: auto;
+     width: 25%;
+     padding-bottom: 2px;
  }
 
  #block2 img{
@@ -85,3 +84,34 @@ h2{
     font-family: 'Libre Bodoni', serif;
     font-size: 45px;
  }
+
+ li{
+     list-style: none;
+     display:inline-flex;
+     font-size: 30px;
+     font-family: "Libre Franklin", sans-serif;
+     margin-top: 45px;
+     margin-bottom: 45px;
+     padding: 20px;
+ }
+
+ li a {
+     text-decoration: none;
+ }
+
+ a:link{
+     padding: 20px;
+ }
+
+ a:hover{
+    background-color: #84A59D;
+    opacity: 80%;
+    border-radius: 20px;
+
+ }
+
+ footer{
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: #FAD8BC;
