@@ -109,12 +109,17 @@ li a {
 
  }
 
- footer{
+ footer {
     text-align: center;
     padding: 20px;
     margin: 20px;
     background-color: #FAD8BC;
  }
+
+ footer p{
+    font-family: "Playfair Display", serif;
+    font-size: 17px;
+   }
  
 
 
