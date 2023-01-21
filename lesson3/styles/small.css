@@ -61,7 +61,7 @@ h2{
      border: 2px solid black;
  }
 
- .smallpart{
+.smallpart{
      font-size: 30px;
  }
 
@@ -92,7 +92,6 @@ li{
     font-family: "Libre Franklin", sans-serif;
     margin-top: 5px;
     margin-bottom: 25px;
-    padding: 2px;
 }
 
 li a {
