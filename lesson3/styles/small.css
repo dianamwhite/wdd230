@@ -1,5 +1,4 @@
 body {
-    grid-column: 1fr;
     background-color: #F7EDE2;
     width: 80%;
     margin: 0 auto;
@@ -23,7 +22,6 @@ nav{
 }
 
 main{
-    grid-column: 1fr;
     width: 70%;
     margin:0 auto;
     text-align: center;
