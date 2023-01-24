@@ -2,17 +2,28 @@ body {
     grid-column: 1fr;
     background-color: #F7EDE2;
     width: 80%;
-    margin: auto;
+    margin: 0 auto;
 }
 
 header {
-    width: 100%;
+    width: 90%;
     background-color: #84A59D;
+    display: flex;
+	flex-flow: column;
+	align-items: center;
     text-align: center;
+    margin: 0 auto;
     padding: 20px;
 }
 
+nav{
+    width: 80%;
+    padding-right: 35px;
+    margin: 0 auto;
+}
+
 main{
+    grid-column: 1fr;
     width: 70%;
     margin:0 auto;
     text-align: center;
@@ -47,16 +58,16 @@ h2{
      padding-bottom:10px;
  }
 
- #block3 img{
+ .block3 img{
      width: 100%;
  }
 
- #block2 img{
+ .block2 img{
     width: 55%;
     padding: 2%;
  }
 
- #block1 img{
+ .block1 img{
      width: 150%;
      border: 2px solid black;
  }
@@ -86,12 +97,10 @@ h2{
 
 li{
     list-style: none;
-    display: block;
     font-size: 20px;
-    text-align: center;
     font-family: "Libre Franklin", sans-serif;
     margin-top: 5px;
-    margin-bottom: 25px;
+    padding: 10px;
 }
 
 li a {

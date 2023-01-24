@@ -17,13 +17,13 @@
     font-size: 20px;
     padding-bottom:10px;
   }
-  #block3 img {
+  .block3 img {
     width: 25%;
   }
-  #block2 img {
+  .block2 img {
     width: 15%;
   }
-  #block1 img {
+  .block1 img {
     width: 90%;
   }
   li {

@@ -17,13 +17,14 @@
         font-size: 20px;
         padding-bottom:10px;
       }
-    #block3 img {
+
+    .block3 img {
         width: 55%;
       }
-    #block2 img {
+    .block2 img {
         width: 35%;
       }
-    #block1 img {
+    .block1 img {
         width: 100%;
       }
     
@@ -36,10 +37,8 @@
     .third{
         font-size: 45px;
      }
-
     li{
-      display: block;
+      padding:10px;
     }
-    
     }
     
