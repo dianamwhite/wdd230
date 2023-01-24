@@ -58,25 +58,25 @@ img {
   padding-left: 35px;
 }
 
-#first,
-#second,
-#third {
+.first,
+.second,
+.third {
   width: 70%;
   margin: 25px;
   padding: 25px;
   text-align: justify;
   background-color: whitesmoke;
 }
-#first,
-#second,
-#third p {
+.first,
+.second,
+.third p {
   font-size: 16px;
   font-family: "Montserrat", sans-serif;
 }
 
-#box1,
-#box2,
-#box3 {
+.box1,
+.box2,
+.box3 {
   background-color: whitesmoke;
 }
 
