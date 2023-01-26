@@ -1,5 +1,8 @@
-let year = new Date();
-document.querySelector('#year').textContent = year.getFullYear();
 
-let newdt = document.lastModified;
-    document.getElementById('lastupdated').innerHTML = newdt;
+
+function toggleMenu(){
+    document.getElementById("primaryNav").classList.toggle("open");
+
+}
+ const x = document.getElementById("hambButton");
+ x.onclick = toggleMenu;

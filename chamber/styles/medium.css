@@ -1,19 +1,25 @@
-@media only screen and (min-width: 32.5em){
- 
-nav button{
+@media only screen and (min-width: 35em) {
+header img {
+    width: 30%;
+    margin: 0 auto;
+}
+nav button {
     display: none;
 }
 
-nav ul{
+nav ul#primaryNav {
     display: flex;
     justify-content: center;
-}
+  }
 
-nav ul li a{
+  nav ul li a {
     padding: 10px;
     margin-bottom: 40px;
-    font-size: 30px;
+    font-size: 25px;
+  }
 
-}
-
+  .box6 img {
+    width: 20%;
+    margin: 0 auto;
+  }
 }
