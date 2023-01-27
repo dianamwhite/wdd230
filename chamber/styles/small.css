@@ -7,7 +7,7 @@ header img {
   width: 50%;
   margin: 0 auto;
 }
-
+/*navigation*/
 nav {
     background-color: #031d44;
 }
@@ -40,25 +40,35 @@ nav ul li a:hover {
   background-color: #f4f1de;
   color: #031d44;
 }
+
+/*main*/
+
+main{
+  display: grid; 
+  grid-column: 1fr;
+  grid-gap: 10px;
+}
 main div {
-  border: 2px solid black;
-  width: 85%;
-  height: 20rem;
-  align-content: center;
-  justify-content: center;
+  border: 1px solid black;
+  padding: 50px;
+  margin: 10px;
+
 }
 
-main p {
-  font-size: 20px;
-  padding: 10px;
-  color: black;
+div.box5{
+  display: grid;
+  grid-column: 1fr;
 }
 
-.box6 img {
+div.spotlight3{
+  display: none;
+}
+
+/*footer*/
+.footerbox img {
   width: 40%;
   margin: 0 auto;
 }
-
 footer {
   background-color: #dab785;
   text-align: center;
@@ -66,12 +76,13 @@ footer {
 }
 
 p.footerinfo{
-    font-size: 18px;
+    font-size: 15px;
 }
 nav ul.open {
     display: block;
   }
 
+  /*button*/
 #hambButton span:nth-child(1) {
     display: block;
 }
