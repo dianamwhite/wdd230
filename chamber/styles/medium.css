@@ -1,8 +1,11 @@
 @media only screen and (min-width: 45em) {
-header img {
+  /*header*/
+  header img {
     width: 30%;
     margin: 0 auto;
 }
+
+  /*navegation*/
 nav button {
     display: none;
 }
@@ -18,7 +21,35 @@ nav ul#primaryNav {
     font-size: 25px;
   }
 
-  .box6 img {
+  /*main*/
+
+  main#container1{
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  }
+  div.box1{
+    grid-column: 1/5;
+  }
+  div.box4{
+    grid-column: 1/5;
+    grid-row: 2/3;
+  }
+
+  div.box5{
+    grid-column: 1/5;
+    grid-row: 3/4;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  div.box6{
+    grid-column: 1/5;
+    grid-row: 4/5;
+  }
+  div.box2{
+    grid-column: 1/4;
+  }
+  /*footer*/
+  .footerbox img {
     width: 20%;
     margin: 0 auto;
   }
