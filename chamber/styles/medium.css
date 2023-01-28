@@ -58,10 +58,6 @@
     grid-column: 1/4;
   }
   /*footer*/
-  footer{
-    display: grid;
-    grid-template-columns: 1fr ;
-  }
   .footerbox {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -76,6 +72,7 @@
   .footerbox p{
     grid-column: 2/3;
     grid-row: 1/2;
+  
   }
 
   p.footerinfo{
