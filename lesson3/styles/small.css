@@ -83,14 +83,18 @@ h2{
  }
 
 section.block3 img{
-     width: 15em;
-     height: auto;
+    width: 15em;
+    height: auto;
     padding: 2%;
  }
-
+ section.block2 img{
+    width: 15em;
+    height: auto;
+    padding: 2%;
+ }
 section.block1 img{
-     width: 100%;
-     border: 2px solid black;
+    width: 100%;
+    border: 2px solid black;
  }
 
 .smallpart{
