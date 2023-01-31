@@ -36,11 +36,6 @@ nav ul{
     margin: 0;
 }
 
-a{
-
-}
-
-
  a:link{
      padding: 20px;
  }
@@ -49,10 +44,11 @@ a{
     background-color: #84A59D;
     opacity: 80%;
     border-radius: 20px;
-
  }
 
 main{
+    display: flex;
+    flex-direction: column;
     width: 70%;
     margin:0 auto;
     text-align:left;
@@ -64,7 +60,7 @@ h1{
 }
 
 h2{
-     font-size: 25px;
+     font-size: 35px;
      font-family: "Libre Franklin", sans-serif;
      font-weight: 200;
  }
@@ -75,28 +71,25 @@ h2{
  }
 
  h4{
-     font-size: 25px;
+     font-size: 27px;
  }
 
  p{
-     width: 70%;
-     font-size: 16px;
+     width: 100%;
+     font-size: 20px;
      font-family: "Libre Franklin", sans-serif;
      margin: 0 auto;
      padding-bottom:10px;
  }
 
- .block3 img{
-     width: 100%;
- }
-
- .block2 img{
-    width: 55%;
+section.block3 img{
+     width: 15em;
+     height: auto;
     padding: 2%;
  }
 
- .block1 img{
-     width: 150%;
+section.block1 img{
+     width: 100%;
      border: 2px solid black;
  }
 
@@ -135,6 +128,8 @@ h2{
 }
 
 footer {
+    font-family: "Playfair Display", serif;
+    font-size: 20px;
     text-align: center;
     padding: 20px;
     margin: 20px;
@@ -143,7 +138,7 @@ footer {
 
 footer p{
     font-family: "Playfair Display", serif;
-    font-size: 17px;
+    font-size: 20px;
    }
  
 
