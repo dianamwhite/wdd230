@@ -2,7 +2,6 @@
 	margin: 0;
 	padding: 0;
 }
-
 body {
 	height: 100vh;
 	display: flex;
@@ -18,19 +17,25 @@ h1 {
 
 main {
 	margin: 1rem auto;
-	border: 1px solid rgba(0, 0, 0, 0.1);
+	border: 1px solid black;
 	padding: 1rem;
-	background-color: #ddd;
+	background-color: rgb(169, 226, 188);
 	display: flex;
-	flex-direction: column;
+    flex-direction: column;
 }
-
+label{
+    padding: 0.5rem;
+    margin: 10px;
+}
 input,
 button {
+    width: 150px;
 	padding: 0.5rem;
+    margin: 10px;
 }
 
 button {
+    width: 150px;
 	margin: 0.5rem;
 }
 
@@ -47,15 +52,18 @@ button {
 	padding: 0.5rem;
 }
 
+
 ul {
 	margin: 1rem;
 	list-style: none;
+    border: 1px solid rgb(187, 177, 177);
 }
 
 li {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+    padding: 20px;
 }
 
 @media only screen and (min-width: 32.5em) {
@@ -64,6 +72,6 @@ li {
 	}
 
 	main {
-		width: 320px;
+		width: 700px;
 	}
 }

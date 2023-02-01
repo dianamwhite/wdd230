@@ -1,25 +1,34 @@
+//*las updated*//
+let year = new Date();
+document.querySelector('#year').textContent = year.getFullYear();
+
+let newdt = document.lastModified;
+    document.getElementById('lastupdated').innerHTML = newdt;
+
 //*getting elements*//
+const input = document.querySelector('input');
+const button = document.querySelector('button');
 const list = document.querySelector('ul');
-      const input = document.querySelector('input');
-      const button = document.querySelector('button');
 
-      button.addEventListener('click', () => {
-        const myItem = input.value;
-        input.value = '';
+//*Add Event Listener for Add Button*//
 
-        const listItem = document.createElement('li');
-        const listText = document.createElement('span');
-        const listBtn = document.createElement('button');
+button.addEventListener('click', () => {
+const chapter = input.value;
+input.value = '';
 
-        listItem.appendChild(listText);
-        listText.textContent = myItem;
-        listItem.appendChild(listBtn);
-        listBtn.textContent = 'Delete';
-        list.appendChild(listItem);
+const listItem = document.createElement('li');
+const listText = document.createElement('span');
+const deleteBtn = document.createElement('button');
 
-        listBtn.addEventListener('click', () => {
-          list.removeChild(listItem);
-        });
+listItem.appendChild(listText);
+listText.textContent = chapter;
+listItem.appendChild(deleteBtn);
+list.appendChild(listItem);
 
-        input.focus();
-      });
+deleteBtn.textContent = '❌';
+deleteBtn.addEventListener('click', () => {
+list.removeChild(listItem);
+});
+
+input.focus();
+});
