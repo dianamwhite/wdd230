@@ -67,6 +67,10 @@ li {
     padding: 20px;
 }
 
+li button{
+	width: 50px;
+}
+
 @media only screen and (min-width: 32.5em) {
 	h1 {
 		font-size: 2rem;

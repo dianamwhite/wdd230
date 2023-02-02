@@ -10,9 +10,9 @@ const input = document.querySelector('input');
 const button = document.querySelector('button');
 const list = document.querySelector('ul');
 
-//*Add Event Listener for Add Button*//
+//* Click event listener for the Add Chapter button using addEventListener and an anonymous function. *//
 
-button.addEventListener('click', () => {
+button.addEventListener('click', () => {    //  =>  means funciton () //
 const chapter = input.value;
 input.value = '';
 
