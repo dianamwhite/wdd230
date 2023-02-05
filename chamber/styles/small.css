@@ -93,8 +93,7 @@ nav ul li a {
 }
 
 a:hover {
-  background-color: #f4f1de;
-  color: #031d44;
+  color: #e1c196;
 }
 
 /*social icons*/
@@ -174,6 +173,9 @@ section.join{
 .join a{
   text-decoration: none;
   color:white;
+}
+.join a:hover{
+  color: #e1c196;
 }
 
 /*box2 Ribbon Cutting*/

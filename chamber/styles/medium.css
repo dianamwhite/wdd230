@@ -90,6 +90,9 @@ section.join2 a{
   color: white;
   text-decoration: none;
 }
+.join2 a:hover{
+  color: #e1c196;
+}
 
 div.box6 p{
   width: 80%;
