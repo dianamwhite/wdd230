@@ -32,6 +32,10 @@ nav button {
   margin: 10px;
   min-height: 200px;
 }
+.box1 h2{
+  font-size: 30px;
+  margin: 0;
+}
 
 /*box4 - New Releases*/
 div.box4{
@@ -49,7 +53,7 @@ div.box5{
   margin: 10px;
 }
 .spotlight1{
-    width: 50%;
+  width: 50%;
 }
 .spotlight2{
   width: 50%;
@@ -57,22 +61,27 @@ div.box5{
 
 /*box6 - Join*/
 div.box6{
-  background-color: #B1CDEC;
+  width: auto;
+  display: block;
   grid-column: 1/5;
   grid-row-start: 4;
   text-align: center;
-  margin: 10px;
 }
-section.join2{
-  background-color: #031D44;
-  padding: 15px;
-  border-radius: 15px;
-  width: fit-content;
-  margin: 30px 120px 0 auto;
+div.join2 {
+  background-color:#031d44;
+  width:55%;
+  padding: 25px;
+  border-radius: 26px;
+  margin:0 auto;
+  margin-top: 29px;
 }
-section.join2 a{
-  color: white;
+a.joinmain{
   text-decoration: none;
+  color: white;
+}
+.box6 p{
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .join2 a:hover{
   color: #e1c196;
@@ -112,7 +121,7 @@ footer h1{
   grid-column: 2/3;
   grid-row: 1/2;
 }
-footer h2.footerh2{
+footer h1{
   grid-column: 2/3;
   grid-row: 2/3;
 }

@@ -33,7 +33,6 @@ main{
 div.box2{
   grid-column: 1/2;
   grid-row:1/2;
-  margin-bottom: 1em;
 }
 
 /*box3 Weather*/
@@ -44,29 +43,15 @@ div.box3{
 
 /*box6 Join2*/
 div.box6{
-  display: block;
   grid-column: 1/2;
   grid-row: 3/4;
   grid-column-start: 1;
-  width: 100%;
 }
 div.box6 p{
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
-div.join2 {
-  background-color:#031d44;
-  width: 75%;
-  padding: 20px;
-  border-radius: 26px;
-  margin:0 auto;
-  margin-top: 29px;
-}
-a.joinmain{
-  text-decoration: none;
-  color: white;
-}
 
 /*box1 Welcome to Concise*/
 div.box1{ 
@@ -86,7 +71,6 @@ section.join{
 div.box4{
   grid-column: 2/4;
   grid-row: 3/4;
-  margin-bottom: 0 13em 0 3em;
 }
 div.box4 p{
   padding: 20px;
@@ -100,7 +84,6 @@ div.box5{
   grid-row: 1/4;
   display: flex;
   flex-direction: column;
-  margin-top: 10px;
   text-align: center;
 
 }
@@ -112,6 +95,7 @@ p.email{
 }
 div.spotlight1{
   width: 100%;
+  height: 310px;
   margin: 0 auto;
   margin-bottom: 1em;
 }
