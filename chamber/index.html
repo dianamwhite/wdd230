@@ -6,9 +6,7 @@
     <title>Diana's Chambers Site</title>
     <meta name="description" content="Diana's Chamber Site">
 
-    <link
-      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Almarai:wght@400;700;800&family=Handlee&family=Inter:wght@100;200;400&family=Libre+Bodoni:wght@400;500;600;700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=PT+Sans:ital,wght@0,400;0,700;1,700&display=swap"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Almarai:wght@400;700;800&family=Handlee&family=Inter:wght@100;200;400&family=Libre+Bodoni:wght@400;500;600;700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=PT+Sans:ital,wght@0,400;0,700;1,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/medium.css">
@@ -16,88 +14,98 @@
   </head>
   <body>
     <!-- Header -->
-    <header>
-        <div class="logobox">
-          <img src="images/concise-logo.png" alt="Logo de Concise Chamber of Commerce">
-          <section class="headings">
-            <h1>Concise</h1>
-            <p class="subtitle"> Chamber of Commerce</p>
-          </section>
-        </div>
-        <div class="socialicons">
-          <a id="fb" href="www.facebook.com">
-            <img src="images/facebook-icon.png" alt="facebook-icon">
-          </a>
-          <a id="in" href="www.linked.com">
-            <img src="images/linked-icon.png" alt="linked-icon">
-          </a>
-        </div>
-      <!-- Navigation -->
-        <nav>
-          <button id="hambButton" class="open">
-            <span>x</span><span>&#9776;</span>
-          </button>
-          <ul id="primaryNav" class="close">
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="#">Discover</a></li>
-            <li><a href="#">Directory</a></li>
-            <li><a href="#">Join</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a id="fb" href="www.facebook.com"><img src="images/facebook-icon.png" alt="facebook-icon" width="20px"></a></li>
-            <li><a id="in" href="www.linked.com"><img src="images/linked-icon.png" alt="linked-icon" width="20px"></a></li>
-          </ul>
-        </nav>
-      <div class="date"></div>
+    <header class="clearfix">
+      <figure class="logo">
+        <img  src="images/concise-logox3.webp" alt="Logo de Concise Chamber of Commerce">
+      </figure>
+      <h1>Concise<br><span>Chamber of Commerce</span></h1>
     </header>
+
+    <!-- Navigation -->
+    <nav class="clearfix">
+      <button id="hambButton" class="open">
+        <span>x</span><span>&#9776;</span>
+      </button>
+      <ul id="primaryNav" class="close">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="#">Discover</a></li>
+        <li><a href="#">Directory</a></li>
+        <li><a href="#">Join</a></li>
+        <li><a href="#">Contact</a></li>
+        <li>
+          <a id="fb" href="www.facebook.com"><img src="images/facebook-icon.png" alt="facebook-icon"></a>
+        </li>
+        <li>
+          <a id="in" href="www.linked.com"><img src="images/linked-icon.png" alt="linked-icon"></a>
+        </li>
+      </ul>
+    </nav>
+    
+    <div class="date"></div>
 
     <!-- Content -->
     <main id="container1">
-
       <div class="box1">
-        <img src="images/houses-image.jpg" alt="image of houses">
-        <h2>Welcome to Concise</h2>
-        <section class="join">
+        <img src="images/wdd230-orgx1.jpg" alt="image of houses" srcset="images/wdd230-orgx2.jpg, images/wdd230-orgx3.jpg">
+        <h3>Welcome to Concise</h3>
+        <div class="Btnjoin">
           <a href="#">Join the Chamber</a>
-        </section>
+        </div>
       </div>
 
       <div class="box2">
-        <h3>Ribbon Cutting</h3>
+        <h4>Ribbon Cutting</h4>
         <p class="par1">💎The Diamond Shack</p>
-        <p class="par2">Join us for the grand opening of The Diamond Shack, Thursday at 1:00pm <br><a class="plusinfo">more infor...</a></p>
+        <p class="par2">Join us for the grand opening of The Diamond Shack, Thursday at 1:00pm<br><a class="plusinfo">more infor...</a></p>
       </div>
 
       <div class="box3">
-        <h3>Weather</h3>
+        <h4>Weather</h4>
         <p class="temp">🌥️ 33℃</p>
         <p class="cloud">Partly Cloud</p>
         <hr>
-        <p class="speed"> Wind Speed:  2.5km/h<br>Wind Chill: N/A</p>
+        <p class="speed">Wind Speed: 2.5km/h<br>Wind Chill: N/A</p>
       </div>
 
       <div class="box4">
-        <h3>New Releases</h3>
-        <p class="reltext">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <h4>New Releases</h4>
+        <p class="reltext">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum.
+        </p>
       </div>
 
       <div class="box5">
         <div class="spotlight1">
-          <h3>Thankful Transport</h3>
+          <h4>Thankful Transport</h4>
           <p class="transport">🚚</p>
           <p class="getit">"We get it there for you"</p>
           <hr>
-          <p class="email">hello@transport.com<br> +999-9999-9999 Website</p>
+          <p class="email">
+            hello@transport.com<br>
+            +999-9999-9999 Website
+          </p>
         </div>
         <div class="spotlight2">
-          <h3>Code Primera</h3>
-          <img src="images/image-pencil.png" alt="image of pencil">
-          <p class="afterschool">An after school coding instructional program</p>
+          <h4>Code Primera</h4>
+          <img src="images/image-pencilx3.png" alt="image of pencil">
+          <p class="afterschool">
+            An after school coding instructional program
+          </p>
           <hr>
-          <p class="email2">contact@codeprim<br> +999-9999-9999 Website</p>
+          <p class="email2">
+            contact@codeprim<br>
+            +999-9999-9999 Website
+          </p>
         </div>
         <div class="spotlight3">
-          <h3>Build a Treefort</h3>
-          <img src="images/image-tree-house.png" alt="tree house image">
+          <h4>Build a Treefort</h4>
+          <img src="images/image-tree-housex3.png" alt="tree house image">
           <p class="over">Over 1000 Plans!</p>
           <hr>
           <p class="buid">builda@treefort.com<br>+888-88880-8888 Website</p>
@@ -105,31 +113,31 @@
       </div>
 
       <div class="box6">
-        <section class="join2">
+        <div class="join2">
           <a class="joinmain" href="#">Join the Chamber</a>
-        </section>
-        <p>Discover how to join the chamber of commerce and how it will benefit your organization!</p>
+        </div>
+        <p>
+          Discover how to join the chamber of commerce and how it will benefit
+          your organization!
+        </p>
       </div>
     </main>
 
     <!-- Footer -->
     <footer>
-      <div class="footerbox">
-        <div class="logobox">
-          <img src="images/concise-logo.png" alt="Logo de Concise Chamber of Commerce">
-          <section class="headings">
-            <h1>Concise</h1>
-            <p class="subtitle"> Chamber of Commerce</p>
-          </section>
+        <figure class="logo">
+          <img src="/chamber/images/concise-logox3.webp" alt="Logo de Concise Chamber of Commerce">
+        </figure>
+        <h1>Concise<br><span>Chamber of Commerce</span></h1>
+        <div class="address">
+          <span>Via Stazione 34,36050 Lanzé</span>
         </div>
-        <p class="address">Via Stazione 34,36050 Lanzé</p>
-        <p class="footerinfo">info@concise.org<br>+393471898954</p>
-        <div class="mappin">
-          <a id="map" href="https://maps.app.goo.gl/oRQfWts4WakwU25M8?g_st=ic">📍Location Map</a>
+        <div class="information">
+          <span>info@concise.org<br>+393471898954<br><a id="map" href="https://maps.app.goo.gl/oRQfWts4WakwU25M8?g_st=ic">📍Location Map</a></span>
         </div>
-      </div>
       <div class="footerbox2">
-        &copy; <span id="year"></span> Concise Chamber| Diana White | WDD 230 Project |<br>
+        &copy; <span id="year"></span> Concise Chamber| Diana White | WDD 230
+        Project |<br>
         Last Modification <span id="lastupdated"></span>
       </div>
     </footer>
