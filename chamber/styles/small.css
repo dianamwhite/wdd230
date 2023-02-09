@@ -145,13 +145,13 @@ div.box1 img{
   padding-top: 10px;
 }
 .box1 h2{
+  background-color: rgba(240, 255, 255, 0.494);
+  width: 60%;
   font-family: "Almarai", sans-serif;
   font-size: 25px;
-  padding:0 20px 0 20px;
+  padding:12px 20px 12px 20px;
   color: #3d577e;
-}
-main .box1 h2{
-  text-align: center;
+  text-align: right;
   position: relative;
   bottom:7em;
 }
