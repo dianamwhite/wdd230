@@ -44,12 +44,11 @@ div.box3{
 
 /*box6 Join2*/
 div.box6{
-  width: 100%;
-  justify-items:flex-start;
-  height: fit-content;
   display: block;
   grid-column: 1/2;
   grid-row: 3/4;
+  grid-column-start: 1;
+  width: 100%;
 }
 div.box6 p{
   margin-top: 20px;

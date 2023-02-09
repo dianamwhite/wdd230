@@ -34,7 +34,7 @@ body .date{
   margin: 0 auto;
 }
 div.date{
-  width: 100% ;
+  width: auto ;
   padding: 12px;
   text-align: center;
   margin: 0 auto;
