@@ -113,21 +113,23 @@ footer{
 footer figure.logo img{
   grid-column: 1/2;
   grid-row:1/3;
-  padding-left:5em ;
+  height: 300px;
 }
+
 footer h1{
-  text-align: center;
   grid-column: 2/3;
   grid-row: 1/2;
+  text-align: left;
+  font-size: 40px;
 }
-footer h1{
-  grid-column: 2/3;
-  grid-row: 2/3;
+footer h1 span{
+  font-size: 20px;
 }
 div.address{
 margin: 0 auto;  
 grid-column:2/3 ;
 grid-row: 2/3;
+margin: 0;
 }
 div.information{
   grid-column: 3/4;

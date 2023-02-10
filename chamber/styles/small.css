@@ -206,18 +206,18 @@ a.plusinfo{
   flex-direction: column;
   text-align: center;
 }
-p.temp span{
+p.clima span{
   font-size: 76px;
 }
-p.temp{
+p.clima{
   font-size: 46px;
   margin: 0;
 }
 p.cloud{
   font-size: 35px;
 }
-.box3 p.speed{
-  font-size: 15px;
+.box3 p.speedW{
+  font-size: 19px;
   position: relative;
   bottom: 2em;
   
@@ -282,12 +282,13 @@ footer {
   text-align: center;
   font-size: 15px;
 }
- .logo{
-  margin: 0;
+ footer figure.logo img{
+   margin: 0;
 }
 footer h1{
   text-align: center;
-  font-size: 15px;
+  font-size: 26px;
+  float: ri;
   padding-top: 3.5em;
   padding-right: 5.5em;
 }

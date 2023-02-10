@@ -7,9 +7,9 @@ const day= now.getDate();
 
 //banner//
 
-    if (d.getDay() == 1) || (d.getDay() == 2) {
+    if (d.getDay() == 1) || (d.getDay() == 2) {  
     const banner= document.querySelector ('.banner');
-
+    
     //text banner//
     banner.textContent= '🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.'; 
 
