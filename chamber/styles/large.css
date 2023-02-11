@@ -121,6 +121,8 @@ div.spotlight3 img{
 }
 
 /*footer*/
-
+footer figure.logo img{
+  padding-left: 8em;
+}
 }
   
