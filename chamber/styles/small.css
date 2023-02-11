@@ -1,6 +1,23 @@
 body{
   margin: 0 auto;
 }
+/*--------Banner---------*/
+div.banner{
+  position: fixed;
+  z-index: 9999;
+  width: 100%;
+  background-color: #f4e8c195;
+  margin: 0;
+}
+.banner .bannerbox{
+  text-align: center;
+  margin: 0 auto;
+}
+.banner .bannerbox .bannertext{
+  padding: 20px 20px 20px 0;
+  color: #031d44;
+  font-size: 15px;
+}
 
 /*--------header---------*/
 
@@ -279,24 +296,28 @@ div.spotlight3{
 
 footer {
   background-color: #dab785;
-  text-align: center;
-  font-size: 15px;
-}
- footer figure.logo img{
-   margin: 0;
 }
 footer h1{
-  text-align: center;
+  margin: 0 auto;
+  text-align: left;
   font-size: 26px;
-  padding-top: 3.5em;
-  padding-right: 5.5em;
 }
-div.address span{
+footer h1 span{
   position: relative;
-  right: 45px;
+  bottom: .4em;
+  font-size: 18px;
+}
+div.address{
+  text-align: center;
+  margin: 0 auto;
+}
+div.address p{
+  font-size: 18px;
+  text-align: center;
 }
 div.information {
   text-align: center;
+  font-size: 18px;
   
 }
 a#map{
@@ -305,7 +326,9 @@ a#map{
 }
 
 .footerbox2{
+  text-align: center;
   padding:10px 5px 10px 5px;
+  font-size: 15px;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
