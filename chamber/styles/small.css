@@ -3,7 +3,7 @@ body{
 }
 /*--------Banner---------*/
 div.banner{
-  position: fixed;
+  position: sticky;
   z-index: 9999;
   width: 100%;
   background-color: #f4e8c195;

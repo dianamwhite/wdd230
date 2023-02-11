@@ -61,7 +61,7 @@ div.box5{
 /*box6 - Join*/
 div.box6{
   width: auto;
-  display: block;
+  display:block;
   grid-column: 1/5;
   grid-row-start: 4;
   text-align: center;
