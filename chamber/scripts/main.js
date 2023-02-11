@@ -1,4 +1,4 @@
-//current date and dates to use//
+//current date and dates to use EU//
 const now = new Date();
 const fullDate = new Intl.DateTimeFormat("en-UK", { dateStyle: "full" }).format(now);
 
@@ -23,12 +23,25 @@ let newdt = document.lastModified;
     document.getElementById('lastupdated').innerHTML = newdt;
 
 /*banner*/
-    const days= now.getDay;
+    const days= new date;
+
    //apppears//
-    if (days.getDay() == 1 || days.getDay() == 2) {  
-        document.getElementById("banner").innerText = block;
+    if ((days.getDay() == 1) || (days.getDay() ==2)) {  
+        document.getElementById("banner").style.display = 'block';
     }
     else{
-        document.getElementById("banner").innerText = none;
+        document.getElementById("banner").style.display = 'none';
     }
+
+
+ /*  function banner (){
+ 
+    if ((days.getDay() == 1) || (days.getDay() ==2)) {  
+        result = 'banner';
+    }
+    else{
+        result='';
+    }
+    document.getElementById("banner").innerHTML= result;
+}*/
     

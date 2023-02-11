@@ -51,6 +51,7 @@ div.box6{
 div.box6 p{
   margin-top: 20px;
   margin-bottom: 20px;
+  font-size: 18px;
 }
 
 
@@ -63,6 +64,8 @@ div.box1 img{
   margin-top: 50px;
 }
 
+
+}
 section.join{
   left: 60em;
   top: 30em;
@@ -89,12 +92,7 @@ div.box5{
   height: auto;
 
 }
-p.getit{
-  font-size: 15px;
-}
-p.email{
-  font-size: 15px;
-}
+
 div.spotlight1{
   width: 100%;
   height: 100%;
@@ -118,10 +116,10 @@ div.spotlight3 img{
   margin: 0 auto;
 }
 .spotlight3 p.over{
-  font-size: 15px;
+  font-size: 18px;
 }
 .spotlight3 p.build{
-  font-size: 15px;
+  font-size: 18px;
   padding-bottom: 1em;
 }
 

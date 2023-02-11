@@ -3,11 +3,10 @@ body{
 }
 /*--------Banner---------*/
 div.banner{
-  position: sticky;
-  z-index: 9999;
   width: 100%;
   background-color: #f4e8c195;
   margin: 0;
+	position: relative;
 }
 .banner .bannerbox{
   text-align: center;
@@ -200,7 +199,7 @@ div.box2 p{
   margin: 0 auto;
   width: 80%;
   padding: 10px;
-  font-size: 15px;
+  font-size: 18px;
   text-align: center;
 }
 
@@ -247,7 +246,7 @@ p.cloud{
   padding: 15px;
 }
 .box4 p{
-  font-size: 15px;
+  font-size: 18px;
 }
 /*box5 spotlight*/
 div.box5{
@@ -268,12 +267,12 @@ p.transport{
 }
 .spotlight1 p.getit{
   text-align: center;
-  font-size: 15px;
+  font-size: 18px;
 }
 .spotlight1 p.email{
   text-align: center;
   padding-bottom: 1em;
-  font-size: 15px;
+  font-size: 18px;
 }
 .box5 div.spotlight2 img{
   width: 20%;
@@ -281,7 +280,7 @@ p.transport{
 }
 .spotlight2 p{
   text-align: center;
-  font-size: 15px;
+  font-size: 18px;
   padding-bottom: 1em;
 }
 div.spotlight3{
