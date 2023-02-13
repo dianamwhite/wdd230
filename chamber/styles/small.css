@@ -148,17 +148,16 @@ main{
 main{
   display:flex;
   flex-direction: column;
-  margin: 2% 0 2% 0;
 
 }
 /*div boxes*/
 /*box1 Welcome to Concise*/
-div.box1{
+main div.box1{
   padding: 0;
+  margin: 0;
 }
-div.box1 img{
+main div.box1 img{
   width:100%;
-  padding-top: 10px;
 }
 .box1 h2{
   background-color: rgba(240, 255, 255, 0.494);
@@ -194,10 +193,12 @@ div.box1 img{
 }
 
 /*box2 Ribbon Cutting*/
-
+main div.box2{
+  padding: 0;
+  margin: 0;
+}
 div.box2 p{
   margin: 0 auto;
-  width: 80%;
   padding: 10px;
   font-size: 18px;
   text-align: center;
@@ -207,7 +208,6 @@ h3{
   text-align: center;
   color:#031d44;
   font-size: 37px;
-  margin: 20px;
 }
 a.plusinfo{
   color:#7d0202;
@@ -216,7 +216,6 @@ a.plusinfo{
 /*box3 Weather*/
 .box3{
   width: 100%;
-  height:auto;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -250,7 +249,7 @@ p.cloud{
 }
 /*box5 spotlight*/
 div.box5{
-  height:auto;
+  margin: 0 auto;
 }
 
 div.box5 .spotlight1, .spotlight2, .spotlight3{
@@ -294,6 +293,7 @@ div.spotlight3{
 /*----------footer----------*/
 
 footer {
+  margin: 0;
   background-color: #dab785;
 }
 footer h1{

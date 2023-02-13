@@ -23,14 +23,14 @@ let newdt = document.lastModified;
     document.getElementById('lastupdated').innerHTML = newdt;
 
 /*banner*/
-    const days= new date;
+    const days= new Date();
 
    //apppears//
-    if ((days.getDay() == 1) || (days.getDay() ==2)) {  
-        document.getElementById("banner").style.display = 'block';
+    if ((days.getDay() == 1) || (days.getDay() == 2)) {  
+        document.getElementsById("banner").style.display = 'block';
     }
     else{
-        document.getElementById("banner").style.display = 'none';
+        document.getElementsById("banner").style.display = 'none';
     }
 
 
