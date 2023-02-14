@@ -32,18 +32,7 @@ let newdt = document.lastModified;
     }
     else{
         let banner= document.getElementById("banner")
-        banner.style.display = 'none';
+         banner.style.display = 'none';
     }
 
-
- /*  function banner (){
- 
-    if ((days.getDay() == 1) || (days.getDay() ==2)) {  
-        result = 'banner';
-    }
-    else{
-        result='';
-    }
-    document.getElementById("banner").innerHTML= result;
-}*/
     
