@@ -144,6 +144,10 @@ main{
 .box2, .box3, .box4{
   background-color: #B1CDEC;
 }
+.box2, .box3, .box4, .box5, .box6 p{
+  font-family: 'Inter', sans-serif;
+  font-size: 18px;
+}
 /*container div boxes*/
 main{
   display:flex;
@@ -201,7 +205,6 @@ main div.box2{
 div.box2 p{
   margin: 0 auto;
   padding: 10px;
-  font-size: 18px;
   text-align: center;
 }
 
@@ -233,7 +236,6 @@ p.cloud{
   font-size: 35px;
 }
 .box3 p.speedW{
-  font-size: 19px;
   position: relative;
   bottom: 2em;
   
@@ -245,9 +247,7 @@ p.cloud{
   text-align: center;
   padding: 15px;
 }
-.box4 p{
-  font-size: 18px;
-}
+
 /*box5 spotlight*/
 div.box5{
   margin: 0;
@@ -269,12 +269,10 @@ p.transport{
 }
 .spotlight1 p.getit{
   text-align: center;
-  font-size: 18px;
 }
 .spotlight1 p.email{
   text-align: center;
   padding-bottom: 1em;
-  font-size: 18px;
 }
 .box5 div.spotlight2 img{
   width: 20%;
@@ -285,7 +283,6 @@ div.spotlight2{
 }
 .spotlight2 p{
   text-align: center;
-  font-size: 18px;
   padding-bottom: 1em;
 }
 div.spotlight3{

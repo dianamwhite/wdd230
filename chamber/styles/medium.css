@@ -35,7 +35,9 @@ nav button {
   font-size: 40px;
   margin: 0;
 }
-
+div.box1 .Btnjoin{
+  bottom:10em;
+}
 /*box4 - New Releases*/
 div.box4{
   margin:0;
@@ -146,7 +148,7 @@ div.information{
   padding-top: 4em;
 }
 div.information p{
-  font-size: 20px;
+  font-family: 'Inter', sans-serif;
 }
 div.footerbox2{
   margin: 0 auto;  
