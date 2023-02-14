@@ -158,6 +158,8 @@ main{
 /*box1 Welcome to Concise*/
 main div.box1{
   padding: 0;
+  height: 300px;
+  
 }
 main div.box1 img{
   width:100%;
@@ -258,6 +260,9 @@ div.box5{
 div.box5 .spotlight1, .spotlight2, .spotlight3{
   background-color: #B1CDEC;
 }
+
+  /*spotlight 1*/
+
 p.transport{
   font-size: 50px;
   margin: 0;
@@ -274,17 +279,21 @@ p.transport{
   text-align: center;
   padding-bottom: 1em;
 }
+
+   /*spotlight 2  code primera*/
+div.spotlight2{
+  margin: 0;
+}
 .box5 div.spotlight2 img{
   width: 20%;
   margin-left: 35%;
 }
-div.spotlight2{
-  margin-top: 10px;
-}
 .spotlight2 p{
   text-align: center;
-  padding-bottom: 1em;
 }
+
+  /*spotlight 3*/
+
 div.spotlight3{
   display: none;
 }
