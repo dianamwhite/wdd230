@@ -12,5 +12,5 @@ body main{
 }
 
 picture img [data-src]{
-    filter: blur(10em);
+    filter: blur(2em);
 }
