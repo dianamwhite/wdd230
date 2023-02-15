@@ -6,11 +6,11 @@ function preloadImage(img){
         return;
     }
 img.src = src;
-
 }
-const imgOption = {
+
+const imgOptions = {
     treshold: 1,
-    rootMargin: '0px 0px 20px 0px'
+    rootMargin: '0px 0px 300px 0px'
 };
 
 const imgObserver = new IntersectionObserver ((entries, imgObserver) => {
@@ -25,5 +25,5 @@ const imgObserver = new IntersectionObserver ((entries, imgObserver) => {
 }, imgOptions);
 
 images.forEach (image => {
-    imgObserver.observe(image);
-});  /* we can't apply one observer to the entire list.. we have to apply it to each one of it*/
+    imgObserver.observe(image);            /* we can't apply one observer to the entire list.. we have to apply it to each one of it*/
+});  
