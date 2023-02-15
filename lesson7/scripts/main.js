@@ -10,7 +10,7 @@ img.src = src;
 
 const imgOptions = {
     treshold: 1,
-    rootMargin: '0px 0px 300px 0px'
+    rootMargin: '0px 0px 20px 0px'
 };
 
 const imgObserver = new IntersectionObserver ((entries, imgObserver) => {
