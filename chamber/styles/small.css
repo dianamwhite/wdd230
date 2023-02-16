@@ -349,4 +349,16 @@ a#map{
   clear: both;
 }
 
+/*----------DISCOVER----------*/
+/*container2- DIV discover*/
+main #container2{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+div.discover {
+  justify-content: center;
+
+}
 
