@@ -374,8 +374,12 @@ div#discover{
 picture img [data-src]{
   filter:blur(4px)
 }
-
+div.storage{
+  text-align: center;
+  margin: 0 auto;
+}
 div.storage p span.label{
+  width: auto;
   font-size: 20px;
   font-weight:bold;
 }
