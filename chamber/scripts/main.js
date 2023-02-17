@@ -36,10 +36,13 @@ let newdt = document.lastModified;
     }
 
 
- //local storage and stamp//
+//local storage and stamp//
 
-const todayDisplay = document.querySelector(".today");
-const visitsDisplay = document.querySelector(".visits");
+// initialize display elements
+
+const todayDisplay = document.querySelector("#today");
+const visitsDisplay = document.querySelector("#visits");
+
 
  // get the stored value in localStorage
 let numVisits = Number(window.localStorage.getItem("visits-ls")); // Using the Number() function ensures that if the storage item does not exist, it will be converted into a zero (0) which helps on the if block condition.
@@ -56,3 +59,5 @@ numVisits++;
 // store the new number of visits value
 localStorage.setItem("visits-ls", numVisits);
 // show todays date demonstration
+todayDisplay.textContent = Date.now();
+//84600000 equals the number of miliseconds in one day.
