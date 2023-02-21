@@ -1,7 +1,7 @@
 table{
     border-collapse: collapse;
-    width: 70%;
-    margin: 60px;
+    width: auto;
+    margin: 60px auto;
     font-size: 18px;
     border: 1.5px solid rgb(108, 97, 97);
 }
@@ -14,12 +14,13 @@ tr, td{
 }
 table tr th.first{
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     padding: 5px;
 
 }
 table tr th{
     text-align: center;
+    padding: 8px;
 }
 table tr{
     text-align: center;
