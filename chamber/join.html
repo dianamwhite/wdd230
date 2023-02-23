@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diana's Chambers Site</title>
+    <meta name="description" content="Diana's Chamber Site">
+
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Almarai:wght@400;700;800&family=Inter:wght@100;200;300;400&family=Libre+Bodoni:wght@400;500;600;700&family=Libre+Franklin:wght@200&family=Nanum+Gothic&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&family=PT+Sans:ital,wght@0,400;0,700;1,400&family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="clearfix">
+      <figure class="logo">
+        <img  src="images/concise-logox3.webp" alt="Logo de Concise Chamber of Commerce">
+      </figure>
+      <h1>Concise<br><span>Chamber of Commerce</span></h1>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="clearfix">
+      <button id="hambButton" class="open">
+        <span>x</span><span>&#9776;</span>
+      </button>
+      <ul id="primaryNav" class="close">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li class="active"><a href="discover.html">Discover</a></li>
+        <li><a href="#">Directory</a></li>
+        <li><a href="#">Join</a></li>
+        <li><a href="#">Contact</a></li>
+        <li>
+          <a id="fb" href="www.facebook.com"><img src="images/facebook-icon.png" alt="facebook-icon"></a>
+        </li>
+        <li>
+          <a id="in" href="www.linked.com"><img src="images/linked-icon.png" alt="linked-icon"></a>
+        </li>
+      </ul>
+    </nav>
+    <!-- main -->
+    <main id="joinbox">
+        <h3 class="joinuspage">Join Us</h3>
+        <!-- Form -->
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Application Information</legend>
+                    <label class="top">First Name*<input type="text" name="fname" required></label>
+                    <label class="top">Last Name*<input type="text" name="lname" required></label>
+                    <label class="top">Phone<input type="tel" name="phone" placeholder="1235551234"></label>
+                    <label class="top">Email*<input type="email" name="email" required placeholder="someone@email.com"></label>
+                    <label class="top">Mobile<input type="tel" name="cellphone" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Business Information</legend>
+                <label class="top">Business Name<input type="title text" name="phone" required pattern="[A-Za-Z]"></label>
+                <label class="top">Business Position <input type="text" name="title" placeholder="title"></label>
+            </fieldset>
+            <fieldset>
+                <legend>Memebership Level</legend>
+                <label class="mid"><input type="radio" name="audience" value="NP Membership"> NP Membership</label>
+                <label class="mid"><input type="radio" name="audience" value="Bronze Membership"> Bronze Membership</label>
+                <label class="mid"><input type="radio" name="audience" value="Silver Membership"> Silver Membership</label>
+                <label class="mid"><input type="radio" name="audience" value="SGold Membership"> Gold Membership</label>
+            </fieldset>
+            <fieldset>
+                <legend>Business Description</legend>
+                <label class="mid"><textarea type="text" name="Description" placeholder="Description..."></textarea></label>
+            </fieldset>
+            <fieldset>
+                <legend>Today's Date</legend>
+                <label class="mid"><input type="date" name="date"></label>
+            </fieldset>
+            <input type="submit" value="Submit" class="submitBtn">
+        </form>
+    </main>
+
+ <!-- Footer -->
+ <footer class="clearfix">
+    <figure class="logo">
+      <img src="images/concise-logox3.webp" alt="Logo de Concise Chamber of Commerce">
+    </figure>
+      <h1>Concise<br><span>Chamber of Commerce</span></h1>
+    <div class="address">
+      <p>Via Stazione 34,36050 Lanzé</p>
+    </div>
+    <div class="information">
+      <p>info@concise.org<br>+393471898954<br><a id="map" href="https://maps.app.goo.gl/oRQfWts4WakwU25M8?g_st=ic">📍Location Map</a></p>
+    </div>
+    <div class="footerbox2">
+      &copy; <span id="year"></span> Concise Chamber| Diana White | WDD 230
+      Project |<br>
+      Last Modification <span id="lastupdated"></span>
+    </div>
+  </footer>
+  <script src="scripts/main.js"></script>
+  <script src="scripts/placeholder.js"></script>
+  <script src="scripts/visits.js"></script>
+</body>
+</html>

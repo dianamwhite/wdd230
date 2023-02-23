@@ -384,4 +384,75 @@ div.storage p span.label{
   font-weight:bold;
 }
 
+/*----------- FORM --------------*/
+form fieldset{
+    max-width: 400px;
+    border: 1px solid #031d44;
+    border-radius: 5px;
+    padding: .5rem 2%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: .9rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form legend{
+    color: #031d44;
+    font-size: 20px;
+    margin: auto 5rem;
+    padding: 0 .5rem;
+    max-width: 300px;
+}
+form label.top, form div{
+  display: block;
+  padding-top: 1rem;
+  color: #031d44;
+  font-size: 15px;
+}
+form label.top input, form label.top select{
+    -webkit-appearance: none;
+    display: block;
+    min-width: 93%;
+    font-size: 1rem;
+    border: solid 1px rgb(230, 230, 230);
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    background-color: rgba(0, 0, 0, 0.1);
+} 
+form label.mid{
+  display: block;
+  padding:.8rem 0;
+  color: #555;
+}
+form label textarea{
+  width: 100%;
+  max-width: 100%;
+}
+form input.submitBtn{
+  border: none;
+  background-color: #031d44;
+  color: white;
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 2rem 0 2rem 28%;
+  width: 96%;
+  max-width: 20rem;
+
+}
+
+form label.top input:required{
+  border-left: rgb(183, 51, 51) solid 6px;
+}
+
+form label.top input:required:valid{
+  border-left:green solid 6px;
+}
+
+/*----------- Join section --------------*/
+
+main#joinbox{
+  display: block;
+  margin: 0 auto;
+  max-width: 800px;
+}
 
