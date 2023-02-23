@@ -456,3 +456,44 @@ main#joinbox{
   max-width: 800px;
 }
 
+/*-------------Table----------------*/
+table{
+  border-collapse: collapse;
+  width: auto;
+  margin: 60px auto;
+  font-size: 25px;
+  border: 1.5px solid rgb(108, 97, 97);
+}
+
+table tr.second th{
+  border: 1px solid #031d4467;
+}
+tr, td{
+  border: 1px solid #031d4467;
+}
+table tr th.first{
+  text-align: center;
+  font-size: 25px;
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+table tr th{
+  text-align: center;
+  padding: 8px;
+}
+table tr{
+  text-align: center;
+  
+}
+tr:nth-child(1) {
+  background-color: #031d44;
+  color: white;
+}
+
+tr:nth-child(6) {
+  background-color: #e7d090;
+}
+table tr.second th:nth-child(1){
+  background-color: #031d44;  
+}
+
