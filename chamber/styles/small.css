@@ -385,6 +385,13 @@ div.storage p span.label{
 }
 
 /*----------- FORM --------------*/
+main#joinbox{
+  width: auto;
+}
+form{
+  display: flex;
+  flex-direction: column;
+}
 form fieldset{
     max-width: 400px;
     border: 1px solid #031d44;
@@ -431,14 +438,17 @@ form label textarea{
 form input.submitBtn{
   border: none;
   background-color: #031d44;
-  color: white;
   border-radius: 1rem;
-  padding: .75rem 1.5rem;
-  margin: 2rem 0 2rem 28%;
-  width: 96%;
+  color: white;
+  padding: .85rem 10rem;
+  width: 80%;
   max-width: 20rem;
-
 }
+div.BtnSubJoin{
+  display: block;
+  margin: 0 auto 20px;
+}
+
 
 form label.top input:required{
   border-left: rgb(183, 51, 51) solid 6px;
@@ -446,6 +456,11 @@ form label.top input:required{
 
 form label.top input:required:valid{
   border-left:green solid 6px;
+}
+
+form #meeting-time{
+  border: 2px solid black;
+  margin: 30px auto;
 }
 
 /*----------- Join section --------------*/
