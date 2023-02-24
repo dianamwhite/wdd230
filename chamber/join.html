@@ -111,11 +111,10 @@
                 <legend>Business Description</legend>
                 <label class="mid"><textarea type="text" name="Description" placeholder="Description..."></textarea></label>
             </fieldset>
-            <fieldset>
-                <legend>Today's Date</legend>
-                <label class="mid"><input type="date" name="date"></label>
-            </fieldset>
-            <input type="submit" value="Submit" class="submitBtn">
+            <input type="hidden" id="meeting-time" name="meeting-time" value="2018-06-12T19:30" min="2018-06-07T00:00" max="2018-06-14T00:00"> 
+            <div class="BtnSubJoin">
+              <input type="submit" value="Submit" class="submitBtn">
+            </div>
         </form>
     </main>
 
@@ -138,7 +137,5 @@
     </div>
   </footer>
   <script src="scripts/main.js"></script>
-  <script src="scripts/placeholder.js"></script>
-  <script src="scripts/visits.js"></script>
 </body>
 </html>
