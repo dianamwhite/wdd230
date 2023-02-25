@@ -439,8 +439,9 @@ form input.submitBtn{
   background-color: #031d44;
   border-radius: 1rem;
   color: white;
-  padding: .85rem 10rem;
-  width: 80%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 300px;
   max-width: 20rem;
 }
 div.BtnSubJoin{
