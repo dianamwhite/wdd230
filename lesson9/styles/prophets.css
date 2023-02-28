@@ -1,0 +1,61 @@
+
+header{
+    text-align: center;
+}
+main{
+    background-color: rgba(128, 128, 128, 0.389);
+    padding: 20px;
+    box-shadow: 5px 10px 25px rgb(0, 0, 0);
+}
+main div.cards{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 auto;
+}
+
+div.cards{
+    text-align: center;
+}
+h1{
+    color: rgb(71, 41, 100);
+    font-size: 3rem;
+}
+h2{
+    color: rgb(71, 41, 100);
+    font-size: 2rem;
+}
+birthplace{
+    display: block;
+    padding: 5px;
+    font-family: sans-serif;
+}
+birthdate{
+    font-family: sans-serif;
+}
+
+section{
+    border: 1px solid rgba(35, 24, 45, 0.254);
+    background-color: rgba(69, 48, 90, 0.254);
+    width: 100%;
+    margin-bottom: 10px;
+}
+ img{
+     padding: 10px;
+ }
+
+ @media only screen and (min-width: 32.5em){
+main div.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+
+div.cards{
+    place-items: center;
+}
+
+ }
