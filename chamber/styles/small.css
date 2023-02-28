@@ -373,7 +373,7 @@ div#discover p{
 picture img [data-src]{
   filter:blur(4px)
 }
-div.storage{
+div.storage p {
   text-align: center;
   margin: 0 auto;
 }
