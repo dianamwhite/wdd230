@@ -7,15 +7,18 @@ main{
     padding: 20px;
     box-shadow: 5px 10px 25px rgb(0, 0, 0);
 }
-main div.cards{
+/*main div.cards{
     display: flex;
     flex-direction: column;
     width: 100%;
     margin: 0 auto;
-}
+}*/
 
-div.cards{
+.cards{
     text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    column-gap: 10px;
 }
 h1{
     color: rgb(71, 41, 100);
@@ -47,7 +50,7 @@ footer{
     margin-top: 3rem;
     text-align: center;
 }
- @media only screen and (min-width: 32.5em){
+ /*@media only screen and (min-width: 32.5em){
 main div.cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -60,5 +63,6 @@ main div.cards {
 div.cards{
     place-items: center;
 }
+}*/
 
- }
+ 
