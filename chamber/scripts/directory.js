@@ -1,4 +1,4 @@
-const companies = 'data.json';
+const companies = ('data.json');
 
 async function getdirectorydata(companies) {
     const response = await fetch (companies);
