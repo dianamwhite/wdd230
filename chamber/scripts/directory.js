@@ -29,8 +29,8 @@ const displaydirectory = (directory) => {
         websiteurl.textContent = `${directory.websiteurl}`;
         memb.textContent = `${directory.membership}`;
 
-        image.setAttribute ('src', directory.img);
-        image.setAttribute ('alt', 'Portrait of ${client.name} ${client.lastname}');
+        image.setAttribute ('src', directory.imageurl);
+        image.setAttribute ('alt', 'Company ${directory.name}');
         image.setAttribute('loading', 'lazy');
         image.setAttribute('width', '340');
 

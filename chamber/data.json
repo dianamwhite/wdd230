@@ -5,7 +5,7 @@
             "name": "Company",
             "address": "305 Aince St",
             "phone":"444-444-444",
-            "websiteurl": "www.asdfg.com",
+            "websiteurl": "www.company.com",
             "imageurl": "https://www.freepik.com/free-vector/branding-identity-corporate-vector-logo-design_22116270.htm",
             "membership": "bronze",
             "order": 1
@@ -14,7 +14,7 @@
             "name": "Bicicle Shop",
             "address": "905 Trianno St",
             "phone": "998-588-5444",
-            "websiteurl": "www.asdfg.com",
+            "websiteurl": "www.bicicleshop.com",
             "imageurl": "https://www.freepik.com/free-vector/bicycle-shop-logo-design-vector_3203466.htm#query=logo%20png&position=7&from_view=keyword&track=ais",
             "membership": "bronze",
             "order": 2
@@ -23,7 +23,7 @@
             "name": "Company Business Tagline",
             "address": "349 Lince St",
             "phone": "775-445-6444",
-            "websiteurl": "www.asdfg.com",
+            "websiteurl": "www.companybusiness.com",
             "imageurl": "https://www.freepik.com/free-vector/abstract-logo-flame-shape_825159.htm#query=logo%20png&position=4&from_view=search&track=ais",
             "membership": "bronze",
             "order": 3
