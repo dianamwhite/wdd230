@@ -527,15 +527,31 @@ main.thanks h1{
 
 /*directory*/
 
+main.direct{
+  display: block;
+}
+
 .cards{
   text-align: center;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-  column-gap: 10px;
+  column-gap: 20px;
+  margin-bottom: 10px;
 }
 
 .cards p{
   font-size: 20px;
 }
+
+
+ main.direct section{
+   border: 2px solid black;
+   margin-bottom: 20px;
+
+ }
+ section image{
+   margin-bottom: 10px;
+ }
+
 
 

@@ -35,11 +35,11 @@ const displaydirectory = (directory) => {
         image.setAttribute('width', '340');
 
 
+        card.appendChild(image);
         card.appendChild(h3);
         card.appendChild(address);
         card.appendChild(phone);
         card.appendChild(websiteurl);
-        card.appendChild(image);
 
         cards.appendChild(card);
 
