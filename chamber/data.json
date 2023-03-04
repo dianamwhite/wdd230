@@ -7,7 +7,7 @@
             "phone":"444-444-444",
             "websiteurl": "www.company.com",
             "imageurl": "images/company.png",
-            "membership": "bronze",
+            "membership": "Bronze",
             "order": 1
     },
     {
@@ -16,7 +16,7 @@
             "phone": "998-588-5444",
             "websiteurl": "www.bicicleshop.com",
             "imageurl": "images/bycicle.png",
-            "membership": "bronze",
+            "membership": "Bronze",
             "order": 2
     },
     {
@@ -25,7 +25,7 @@
             "phone": "775-445-6444",
             "websiteurl": "www.companybusiness.com",
             "imageurl": "images/companybusinesstagline.png",
-            "membership": "bronze",
+            "membership": "Gold",
             "order": 3
     },
     {
@@ -34,7 +34,7 @@
             "phone":"876-988-9999",
             "websiteurl": "www.freeprint.com",
             "imageurl": "images/freeprint.png",
-            "membership": "bronze",
+            "membership": "Gold",
             "order": 4
     },
     {
@@ -43,7 +43,7 @@
             "phone": "444-444-444",
             "websiteurl": "www.abstract.com",
             "imageurl": "images/abstract.png",
-            "membership": "bronze",
+            "membership": "Silver",
             "order": 5
     },
     {
@@ -52,7 +52,7 @@
             "phone": "444-444-444",
             "websiteurl": "www.marketing.com",
             "imageurl": "images/marketing.png",
-            "membership": "bronze",
+            "membership": "Bronze",
             "order": 6
     },
     {
@@ -61,7 +61,7 @@
             "phone": "789-909-544",
             "websiteurl": "www.natural.com",
             "imageurl": "images/natural.png",
-            "membership": "bronze",
+            "membership": "Bronze",
             "order": 7
     },
     {
@@ -70,7 +70,7 @@
             "phone": "265-276-2876",
             "websiteurl": "www.spacenter.com",
             "imageurl": "images/bodymassage.png",
-            "membership": "bronze",
+            "membership": "Gold",
             "order": 8
     },
     {

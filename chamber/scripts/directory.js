@@ -3,13 +3,13 @@ const url = 'https://dianamwhite.github.io/wdd230/chamber/data.json';
 //buttons//
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
-const display = document.querySelector(".cards")
+const display = document.querySelector(".cards");
 
-gridbutton.addEventListener("click",()=>{
-    // example using arrow function
-	display.classList.add("grid");
-	display.classList.remove("list");
-})
+gridbutton.addEventListener("click", function () {
+        // example using arrow function
+        display.classList.add("grid");
+        display.classList.remove("list");
+    })
 
 listbutton.addEventListener("click", showList); // example using defined function
 
@@ -38,7 +38,7 @@ const displaydirectory = (directory) => {
         let h3 = document.createElement ('h3');
         let address = document.createElement ('p');
         let phone = document.createElement ('p');
-        let websiteurl = document.createElement ('p');
+        let websiteurl = document.createElement ('a');
         let image = document.createElement ('img');
         let memb = document.createElement ('p');
         
@@ -53,6 +53,12 @@ const displaydirectory = (directory) => {
         image.setAttribute ('alt', 'Company ${directory.name}');
         image.setAttribute('loading', 'lazy');
         image.setAttribute('width', '340');
+        h3.setAttribute('class', 'h3');
+        address.setAttribute('class', 'address');
+        phone.setAttribute('class', 'phone');
+        websiteurl.setAttribute('href', 'websiteurl')
+        memb.setAttribute('class', 'memb');
+
 
 
         card.appendChild(image);
