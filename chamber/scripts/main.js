@@ -27,12 +27,12 @@ let newdt = document.lastModified;
 
    //apppears//
     if ((days.getDay() == 1) || (days.getDay() == 2)) {  
-       let banner= document.getElementById("banner")
-       banner.style.display = 'block';
+        let banner= document.getElementById("banner");
+        banner.style.display = 'block';
     }
     else{
-        let banner= document.getElementById("banner")
-         banner.style.display = 'none';
+        let banner= document.getElementById("banner");
+        banner.style.display = 'none';
     }
 
 

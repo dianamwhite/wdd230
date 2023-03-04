@@ -22,4 +22,3 @@ localStorage.setItem("visits-ls", numVisits);
 todayDisplay.textContent = Date.now();  //miliseconds in one day.
 let longnum= 1676650639658;
 let today = new Date();
-let
