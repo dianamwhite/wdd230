@@ -607,7 +607,7 @@ section .memb{
  }
 
  .list section > *{
-   margin: 0 1 rem;
+   margin: 0 1rem;
  }
 
  .list section img{
@@ -623,7 +623,7 @@ section .memb{
    padding-top: 10px;
  }
 
- .list section:nth-chid(even){
+ .list section:nth-child(even){
    background-color:#91a9cc;
  }
 
