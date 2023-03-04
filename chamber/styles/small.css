@@ -545,7 +545,8 @@ main.direct{
 
 
  main.direct section{
-   border: 2px solid black;
+   border: 1px solid black;
+   box-shadow: 5px 10px 25px rgb(0, 0, 0);
    margin-bottom: 20px;
 
  }
