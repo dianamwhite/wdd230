@@ -7,8 +7,7 @@
             "phone":"444-444-444",
             "websiteurl": "www.company.com",
             "imageurl": "images/company.png",
-            "membership": "Bronze",
-            "order": 1
+            "membership": "Bronze"
     },
     {
             "name": "Bicicle Shop",
@@ -16,8 +15,7 @@
             "phone": "998-588-5444",
             "websiteurl": "www.bicicleshop.com",
             "imageurl": "images/bycicle.png",
-            "membership": "Bronze",
-            "order": 2
+            "membership": "Bronze"
     },
     {
             "name": "Company Business Tagline",
@@ -25,8 +23,7 @@
             "phone": "775-445-6444",
             "websiteurl": "www.companybusiness.com",
             "imageurl": "images/companybusinesstagline.png",
-            "membership": "Gold",
-            "order": 3
+            "membership": "Gold"
     },
     {
             "name": "FreePrint",
@@ -34,8 +31,7 @@
             "phone":"876-988-9999",
             "websiteurl": "www.freeprint.com",
             "imageurl": "images/freeprint.png",
-            "membership": "Gold",
-            "order": 4
+            "membership": "Gold"
     },
     {
             "name": "Abstract",
@@ -43,8 +39,7 @@
             "phone": "444-444-444",
             "websiteurl": "www.abstract.com",
             "imageurl": "images/abstract.png",
-            "membership": "Silver",
-            "order": 5
+            "membership": "Silver"
     },
     {
             "name": "Marketing",
@@ -52,8 +47,7 @@
             "phone": "444-444-444",
             "websiteurl": "www.marketing.com",
             "imageurl": "images/marketing.png",
-            "membership": "Bronze",
-            "order": 6
+            "membership": "Bronze"
     },
     {
             "name": "Natural",
@@ -61,8 +55,7 @@
             "phone": "789-909-544",
             "websiteurl": "www.natural.com",
             "imageurl": "images/natural.png",
-            "membership": "Bronze",
-            "order": 7
+            "membership": "Bronze"
     },
     {
             "name": "Spa Center",
@@ -70,17 +63,15 @@
             "phone": "265-276-2876",
             "websiteurl": "www.spacenter.com",
             "imageurl": "images/bodymassage.png",
-            "membership": "Gold",
-            "order": 8
+            "membership": "Gold"
     },
     {
             "name": "The Bird Design",
             "address": "Lanco 133, 8663 Vicenza",
             "phone": "837-888-2222",
             "websiteurl": "www.thebird.com",
-            "imageurl": "images/thebird .png",
-            "membership": "Silver",
-            "order": 9
+            "imageurl": "images/thebird.png",
+            "membership": "Silver"
     }
     ]
 }

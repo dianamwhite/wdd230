@@ -65,6 +65,7 @@ const displaydirectory = (directory) => {
         card.appendChild(h3);
         card.appendChild(address);
         card.appendChild(phone);
+        card.appendChild(memb);
         card.appendChild(websiteurl);
 
         cards.appendChild(card);
