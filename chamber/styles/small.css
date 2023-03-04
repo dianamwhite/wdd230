@@ -524,3 +524,18 @@ main.thanks h1{
   font-size: 2rem;
   margin-top: 5rem;
 }
+
+/*directory*/
+
+.cards{
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  column-gap: 10px;
+}
+
+.cards p{
+  font-size: 20px;
+}
+
+

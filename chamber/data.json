@@ -6,7 +6,7 @@
             "address": "305 Aince St",
             "phone":"444-444-444",
             "websiteurl": "www.company.com",
-            "imageurl": "https://www.freepik.com/free-vector/branding-identity-corporate-vector-logo-design_22116270.htm",
+            "imageurl": "images/company.jpg",
             "membership": "bronze",
             "order": 1
     },
@@ -15,7 +15,7 @@
             "address": "905 Trianno St",
             "phone": "998-588-5444",
             "websiteurl": "www.bicicleshop.com",
-            "imageurl": "https://www.freepik.com/free-vector/bicycle-shop-logo-design-vector_3203466.htm#query=logo%20png&position=7&from_view=keyword&track=ais",
+            "imageurl": "images/bycicle.jpg",
             "membership": "bronze",
             "order": 2
     },
@@ -24,16 +24,16 @@
             "address": "349 Lince St",
             "phone": "775-445-6444",
             "websiteurl": "www.companybusiness.com",
-            "imageurl": "https://www.freepik.com/free-vector/abstract-logo-flame-shape_825159.htm#query=logo%20png&position=4&from_view=search&track=ais",
+            "imageurl": "images/companybusinesstagline.jpg",
             "membership": "bronze",
             "order": 3
     },
     {
-            "name": "LoremImpsum",
+            "name": "FreePrint",
             "address": "945 Lanze St",
             "phone":"876-988-9999",
-            "websiteurl": "www.loremimpsum.com",
-            "imageurl": "https://www.freepik.com/premium-vector/letter-logo_5686608.htm#query=logo%20png&position=11&from_view=search&track=ais",
+            "websiteurl": "www.freeprint.com",
+            "imageurl": "images/freeprint.jpg",
             "membership": "bronze",
             "order": 4
     },
@@ -41,8 +41,8 @@
             "name": "Abstract",
             "address": "365 Pastrance St",
             "phone": "444-444-444",
-            "websiteurl": "www.asdfg.com",
-            "imageurl": "https://www.freepik.com/free-vector/branding-identity-corporate-logo-vector-design-template_28755812.htm#query=logo%20png&position=47&from_view=search&track=ais",
+            "websiteurl": "www.abstract.com",
+            "imageurl": "images/abstract.jpg",
             "membership": "bronze",
             "order": 5
     },
@@ -50,8 +50,8 @@
             "name": "Marketing",
             "address": "345 Lince St",
             "phone": "444-444-444",
-            "websiteurl": "www.asdfg.com",
-            "imageurl": "https://www.freepik.com/free-vector/illustration-marketing-banner_2631152.htm#query=logo%20png&position=49&from_view=search&track=ais",
+            "websiteurl": "www.marketing.com",
+            "imageurl": "images/marketing.jpg",
             "membership": "bronze",
             "order": 6
     },
@@ -60,7 +60,7 @@
             "address": "395 Lonnce St",
             "phone": "789-909-544",
             "websiteurl": "www.natural.com",
-            "imageurl": "https://www.freepik.com/free-vector/flat-gradient-nature-concept-logotype_4722274.htm#from_view=detail_alsolike",
+            "imageurl": "images/natural.jpg",
             "membership": "bronze",
             "order": 7
     },
@@ -69,16 +69,16 @@
             "address": "745 Prest St",
             "phone": "265-276-2876",
             "websiteurl": "www.spacenter.com",
-            "imageurl": "https://www.freepik.com/free-vector/spa-center-branding-identity-corporate-vector-design_22970000.htm#&position=18&from_view=author",
+            "imageurl": "images/bodymassage.jpg",
             "membership": "bronze",
             "order": 8
     },
     {
-            "name": "Abstract",
+            "name": "The Bird Design",
             "address": "945 Lance St",
             "phone": "837-888-2222",
-            "websiteurl": "www.abstract.com",
-            "imageurl": "https://www.freepik.com/free-vector/abstract-silhouette-sport-logo-flat-design_4937811.htm#from_view=detail_alsolike",
+            "websiteurl": "www.thebird.com",
+            "imageurl": "images/thebird.jpg",
             "membership": "Silver",
             "order": 9
     }
