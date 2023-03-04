@@ -6,7 +6,7 @@
             "address": "Via 302, 1200 Vicenza ",
             "phone":"444-444-444",
             "websiteurl": "www.company.com",
-            "imageurl": "images/company.jpg",
+            "imageurl": "images/company.png",
             "membership": "bronze",
             "order": 1
     },
@@ -15,7 +15,7 @@
             "address": "Via Trianno 905, 3098 Vicenza",
             "phone": "998-588-5444",
             "websiteurl": "www.bicicleshop.com",
-            "imageurl": "images/bycicle.jpg",
+            "imageurl": "images/bycicle.png",
             "membership": "bronze",
             "order": 2
     },
@@ -24,7 +24,7 @@
             "address": "Lince 349, 1234 Vicenza",
             "phone": "775-445-6444",
             "websiteurl": "www.companybusiness.com",
-            "imageurl": "images/companybusinesstagline.jpg",
+            "imageurl": "images/companybusinesstagline.png",
             "membership": "bronze",
             "order": 3
     },
@@ -33,7 +33,7 @@
             "address": "Lanze 926, 2767 Vicenza ",
             "phone":"876-988-9999",
             "websiteurl": "www.freeprint.com",
-            "imageurl": "images/freeprint.jpg",
+            "imageurl": "images/freeprint.png",
             "membership": "bronze",
             "order": 4
     },
@@ -42,7 +42,7 @@
             "address": "Pastrance 32, 3345 Vicenza",
             "phone": "444-444-444",
             "websiteurl": "www.abstract.com",
-            "imageurl": "images/abstract.jpg",
+            "imageurl": "images/abstract.png",
             "membership": "bronze",
             "order": 5
     },
@@ -51,7 +51,7 @@
             "address": "Via di Lince 23, 2765 Vicenza",
             "phone": "444-444-444",
             "websiteurl": "www.marketing.com",
-            "imageurl": "images/marketing.jpg",
+            "imageurl": "images/marketing.png",
             "membership": "bronze",
             "order": 6
     },
@@ -60,7 +60,7 @@
             "address": "Via Lonnce 12, 8772 Vicenza",
             "phone": "789-909-544",
             "websiteurl": "www.natural.com",
-            "imageurl": "images/natural.jpg",
+            "imageurl": "images/natural.png",
             "membership": "bronze",
             "order": 7
     },
@@ -69,7 +69,7 @@
             "address": "Presta 12, 2877 Vicenza",
             "phone": "265-276-2876",
             "websiteurl": "www.spacenter.com",
-            "imageurl": "images/bodymassage.jpg",
+            "imageurl": "images/bodymassage.png",
             "membership": "bronze",
             "order": 8
     },
