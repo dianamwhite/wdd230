@@ -527,6 +527,13 @@ main.thanks h1{
 
 /*directory*/
 
+.menus{
+  margin: 1rem auto;
+  border: 1px solid rgb(0, 0, 0, 0,1);
+  padding: 0.5rem;
+  text-align: center;
+}
+
 main.direct{
   display: block;
 }
@@ -548,6 +555,7 @@ main.direct{
    border: 1px solid black;
    box-shadow: 5px 10px 25px rgb(0, 0, 0);
    margin-bottom: 20px;
+   background-color: white;
 
  }
  section image{

@@ -1,5 +1,25 @@
 const url = 'https://dianamwhite.github.io/wdd230/chamber/data.json';
 
+//buttons//
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+const display = document.querySelector(".cards")
+
+gridbutton.addEventListener("click",()=>{
+    // example using arrow function
+	display.classList.add("grid");
+	display.classList.remove("list");
+})
+
+listbutton.addEventListener("click", showList); // example using defined function
+
+function showList() {
+	display.classList.add("list");
+	display.classList.remove("grid");
+}
+
+//business cards//
+
 async function getdirectorydata(url) {
     const response = await fetch (url);
     const data = await response.json();
