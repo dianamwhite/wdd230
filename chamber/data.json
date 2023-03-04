@@ -3,7 +3,7 @@
 
         {
             "name": "Company",
-            "address": "305 Aince St",
+            "address": "Via 302, 1200 Vicenza ",
             "phone":"444-444-444",
             "websiteurl": "www.company.com",
             "imageurl": "images/company.jpg",
@@ -12,7 +12,7 @@
     },
     {
             "name": "Bicicle Shop",
-            "address": "905 Trianno St",
+            "address": "Via Trianno 905, 3098 Vicenza",
             "phone": "998-588-5444",
             "websiteurl": "www.bicicleshop.com",
             "imageurl": "images/bycicle.jpg",
@@ -21,7 +21,7 @@
     },
     {
             "name": "Company Business Tagline",
-            "address": "349 Lince St",
+            "address": "Lince 349, 1234 Vicenza",
             "phone": "775-445-6444",
             "websiteurl": "www.companybusiness.com",
             "imageurl": "images/companybusinesstagline.jpg",
@@ -30,7 +30,7 @@
     },
     {
             "name": "FreePrint",
-            "address": "945 Lanze St",
+            "address": "Lanze 926, 2767 Vicenza ",
             "phone":"876-988-9999",
             "websiteurl": "www.freeprint.com",
             "imageurl": "images/freeprint.jpg",
@@ -39,7 +39,7 @@
     },
     {
             "name": "Abstract",
-            "address": "365 Pastrance St",
+            "address": "Pastrance 32, 3345 Vicenza",
             "phone": "444-444-444",
             "websiteurl": "www.abstract.com",
             "imageurl": "images/abstract.jpg",
@@ -48,7 +48,7 @@
     },
     {
             "name": "Marketing",
-            "address": "345 Lince St",
+            "address": "Via di Lince 23, 2765 Vicenza",
             "phone": "444-444-444",
             "websiteurl": "www.marketing.com",
             "imageurl": "images/marketing.jpg",
@@ -57,7 +57,7 @@
     },
     {
             "name": "Natural",
-            "address": "395 Lonnce St",
+            "address": "Via Lonnce 12, 8772 Vicenza",
             "phone": "789-909-544",
             "websiteurl": "www.natural.com",
             "imageurl": "images/natural.jpg",
@@ -66,7 +66,7 @@
     },
     {
             "name": "Spa Center",
-            "address": "745 Prest St",
+            "address": "Presta 12, 2877 Vicenza",
             "phone": "265-276-2876",
             "websiteurl": "www.spacenter.com",
             "imageurl": "images/bodymassage.jpg",
@@ -75,7 +75,7 @@
     },
     {
             "name": "The Bird Design",
-            "address": "945 Lance St",
+            "address": "Lanco 133, 8663 Vicenza",
             "phone": "837-888-2222",
             "websiteurl": "www.thebird.com",
             "imageurl": "images/thebird.jpg",
