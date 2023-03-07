@@ -21,7 +21,7 @@ numVisits++;
 localStorage.setItem("visits-ls", numVisits);
 
 // show todays date demonstration
-todayDisplay.textContent = Date.now();
+//todayDisplay.textContent = Date.now();
 //84600000 equals the number of miliseconds in one day.
 
 // Days since last time visit
