@@ -27,11 +27,11 @@ localStorage.setItem("visits-ls", numVisits);
 // Days since last time visit
 let today = new Date();
 let sincelastvisit = today.toLocaleDateString();
-document.getElementById('entredias').innerHTML = sincelastvisit;
-// check 
 
-//let entredias = (sincelastvisit.getTime() - Date.now()) / 84600000;
-//entrediasOutput.innerHTML = `${entredias.toFixed(0)} days`;
+document.getElementById('entredias').innerHTML = sincelastvisit;
+
+
+
 
 
 

@@ -364,9 +364,16 @@ div#discover{
 }
 
 div#discover p{
-  width: 60%;
+  width: 100%;
   text-align: center;
   padding-bottom: 5px;
+}
+
+div.storage p{
+
+  padding: 10px;
+  font-size: 19px;
+ 
 }
 
 /*placeholder*/
