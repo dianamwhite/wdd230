@@ -26,7 +26,7 @@ localStorage.setItem("visits-ls", numVisits);
 
 // Days since last time visit
 let today = new Date();
-let sincelastvisit = today.toString();
+let sincelastvisit = today.toLocaleDateString();
 document.getElementById('entredias').innerHTML = sincelastvisit;
 // check 
 
