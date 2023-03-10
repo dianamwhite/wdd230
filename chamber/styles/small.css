@@ -86,9 +86,11 @@ nav ul.open {
 
 #hambButton span:nth-child(1) {
   display: block;
+  cursor: pointer;
 }
 #hambButton span:nth-child(2) {
   display:none;
+  cursor: pointer;
 }
 
 #hambButton.open span:nth-child(1) {
@@ -182,6 +184,7 @@ div.box1 .Btnjoin{
   margin: 0 auto;
   position: relative;
   bottom:12em;
+  box-shadow:2px 2px 5px 2px rgb(47, 43, 43) ;
 }
 .Btnjoin{
   background-color: #031D44;
@@ -239,10 +242,11 @@ p.cloud{
 }
 .box3 p.speedW{
   position: relative;
-  bottom: 2em;
-  
+  bottom: 2em;  
 }
-
+ figcaption{
+  margin: 7px;
+ }
 /*box4 New Releases*/
 
 .box4{
@@ -286,10 +290,10 @@ div.spotlight2{
 }
 .box5 div.spotlight2 img{
   width: 20%;
-  margin-left: 35%;
 }
 .spotlight2 p{
   text-align: center;
+  padding: 10px;
 }
 
   /*spotlight 3*/
@@ -450,6 +454,7 @@ form input.submitBtn{
   padding-bottom: 10px;
   width: 300px;
   max-width: 20rem;
+  cursor: pointer;
 }
 div.BtnSubJoin{
   display: block;
