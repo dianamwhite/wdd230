@@ -43,8 +43,6 @@ function displayResults(weatherData) {
     //displays speed
     windspeed.textContent=weatherData.wind.speed;
 
-    
-
   };
 
 
