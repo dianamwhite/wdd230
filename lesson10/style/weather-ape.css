@@ -1,10 +1,10 @@
 main{
     background-color: rgb(197, 231, 231);
-    width: 50%;
+    max-width: 25%;
     border: 1px solid rgba(67, 60, 60, 0.636);
     box-shadow:2px 4px rgba(108, 108, 108, 0.557);
     border-radius: 12px;
     text-align: center;
-    margin:auto;
+    margin: auto;
     margin-top: 30vh;
 }
