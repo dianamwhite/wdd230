@@ -1,5 +1,5 @@
     const temperature =  document.querySelector(".temp");
-    const windspeed =  document.querySelector(".speed").innerHTML;
+    const windspeed =  document.querySelector(".speed");
     //console.log(temperature)
     //console.log(windspeed)
 
@@ -39,6 +39,12 @@ function displayResults(weatherData) {
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     captionDesc.textContent = desc;
+
+    //displays speed
+    windspeed.textContent=weatherData.wind.speed;
+
+    
+
   };
 
 
