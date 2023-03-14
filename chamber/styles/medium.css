@@ -135,7 +135,8 @@ footer h1{
   font-size: 40px;
 }
 footer h1 span{
-  font-size: 25px;
+
+  width: 100%;
 }
 div.address{
 margin: 0 auto;  
@@ -160,4 +161,10 @@ div.footerbox2{
   grid-column: 1/4;
   grid-row: 4/5;
 }
+
+/*directory*/
+section a{
+  padding-top: 20px;
+}
+
 }

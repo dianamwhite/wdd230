@@ -22,7 +22,7 @@
             "address": "Lince 349, 1234 Vicenza",
             "phone": "775-445-6444",
             "websiteurl": "www.companybusiness.com",
-            "imageurl": "images/companybusinesstagline.png",
+            "imageurl": "images/companybusiness-card.png",
             "membership": "Gold"
     },
     {
@@ -62,7 +62,7 @@
             "address": "Presta 12, 2877 Vicenza",
             "phone": "265-276-2876",
             "websiteurl": "www.spacenter.com",
-            "imageurl": "images/bodymassage.png",
+            "imageurl": "images/bodymassage-card.png",
             "membership": "Gold"
     },
     {
@@ -70,7 +70,7 @@
             "address": "Lanco 133, 8663 Vicenza",
             "phone": "837-888-2222",
             "websiteurl": "www.thebird.com",
-            "imageurl": "images/thebird.png",
+            "imageurl": "images/thebird-card.png",
             "membership": "Silver"
     }
     ]
