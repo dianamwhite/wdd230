@@ -285,11 +285,13 @@ p.transport{
 }
 
    /*spotlight 2  code primera*/
-div.spotlight2{
-  margin: 0;
+.box5 .spotlight2{
+  display: flex;
+  flex-direction: column;
 }
-.box5 div.spotlight2 img{
+.spotlight2 img{
   width: 20%;
+  margin: auto;
 }
 .spotlight2 p{
   text-align: center;
@@ -310,7 +312,8 @@ div.spotlight3{
 
 footer {
   margin: 0;
-  background-color: #dab785;
+  background-color: #031d44;
+  color: white;
 }
 footer h1{
   margin: 0 auto;
@@ -322,22 +325,27 @@ footer h1 span{
   bottom: .4em;
   font-size: 18px;
 }
-div.address{
-  text-align: center;
-  margin: 0 auto;
+footer .address{
+  margin-right: 10em;
 }
 div.address p{
   font-size: 18px;
   text-align: center;
 }
-div.information {
+footer .information{
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  padding: 5px;
+}
+div.information p {
+  margin: auto;
   text-align: center;
   font-size: 18px;
-  
 }
 a#map{
   text-decoration: none;
-  color: black;
+  color: white;
 }
 
 .footerbox2{
