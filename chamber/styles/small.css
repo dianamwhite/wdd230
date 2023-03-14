@@ -230,15 +230,8 @@ a.plusinfo{
   flex-direction: column;
   text-align: center;
 }
-p.clima span{
-  font-size: 76px;
-}
-p.clima{
-  font-size: 46px;
-  margin: 0;
-}
-p.cloud{
-  font-size: 35px;
+.box3 figure img{
+  width: 4rem;
 }
 .box3 p.speedW{
   position: relative;
@@ -252,6 +245,9 @@ p.cloud{
 .box4{
   text-align: center;
   padding: 15px;
+}
+.box4 p.reltext span{
+  font-size: 4rem;
 }
 
 /*box5 spotlight*/
@@ -642,5 +638,9 @@ section .memb{
    padding-top: 10px;
  }
 
+/*contact us*/
 
+fieldset{
+  width: 100%;
+}
 

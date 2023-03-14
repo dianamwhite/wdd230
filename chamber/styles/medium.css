@@ -164,4 +164,18 @@ div.footerbox2{
   padding-top: 20px;
 }
 
+/*join*/
+#tablemembership{
+  margin: 5rem;
+}
+
+/*contact us*/
+#contactfield label.top input{
+  padding-left: 6rem;
+}
+
+fieldset label.top input{
+  min-width: 90%;
+}
+
 }
