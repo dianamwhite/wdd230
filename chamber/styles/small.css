@@ -641,7 +641,7 @@ section .memb{
 /*contact us*/
 
 fieldset{
-  width: 100%;
+  width: 150%;
 }
 fieldset label.top input{
   min-width: 90%;
@@ -650,7 +650,7 @@ fieldset label.top input{
   text-align: left;
 }
 
-main h3.contactus-title{
+h3.contactus-title{
   text-align: center;
 }
 .text-center p {

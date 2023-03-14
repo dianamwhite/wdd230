@@ -169,13 +169,4 @@ div.footerbox2{
   margin: 5rem;
 }
 
-/*contact us*/
-form#contactform{
-  width:100%;
-  
-}
-main.contactusbox{
-  grid-template-columns: 2/3;
-}
-
 }
