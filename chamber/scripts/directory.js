@@ -1,4 +1,4 @@
-const url = 'https://dianamwhite.github.io/wdd230/chamber/data.json';
+const url = 'json/data.json';
 
 //buttons//
 const gridbutton = document.querySelector("#grid");
