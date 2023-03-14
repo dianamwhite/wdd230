@@ -170,12 +170,12 @@ div.footerbox2{
 }
 
 /*contact us*/
-#contactfield label.top input{
-  padding-left: 6rem;
+form#contactform{
+  width:100%;
+  
 }
-
-fieldset label.top input{
-  min-width: 90%;
+main.contactusbox{
+  grid-template-columns: 2/3;
 }
 
 }
