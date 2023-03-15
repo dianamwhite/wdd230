@@ -156,5 +156,27 @@ section.contact{
   grid-column: 2/3;
 }*/
 
+main.contactusbox{
+  margin: auto;
+}
+section div.contactbox{
+  width: 120%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+div.imgcontact{
+  grid-column: 2/3;
+  grid-row: 1/2;
+  margin-top: 10rem;
+}
+div.text-center{
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+div.imgcontact img{
+  height: 400px;
+  margin: 20px; 
+  
+}
 }
   

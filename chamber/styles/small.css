@@ -660,3 +660,10 @@ h3.contactus-title{
 .text-center p {
   text-align: center;
 }
+
+div.imgcontact img{
+  height: 300px;
+  margin-left: 80px;
+}
+
+
