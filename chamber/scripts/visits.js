@@ -30,7 +30,7 @@ localStorage.setItem("visits-ul", Vissince)
 // Days since last visit
 let today = new Date("0");
 
-let dayssince = (Date.now() - Vissince()) / 84600000;
+let dayssince = (Date.now() - Vissince) / 84600000;
 
 dayssinceOutput.innerHTML = `${dayssince.toFixed(0)} days`;
 
