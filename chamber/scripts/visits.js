@@ -6,7 +6,8 @@ const dayssinceOutput = document.querySelector("#dayssince");
 
  // get the stored value in localStorage
 let numVisits = Number(window.localStorage.getItem("visits-ls")); 
-let Vissince = Number(window.localStorage.getItem("visits-ul"));
+
+
 
 
 // determine/display the number of visits.
@@ -19,21 +20,36 @@ if (numVisits !== 0) {
 // increment in the number of visits.
 numVisits++;
 
+
 // store the new number of visits value
 localStorage.setItem("visits-ls", numVisits);
-localStorage.setItem("visits-ul", Vissince)
+
 
 // show todays date demonstration
 //todayDisplay.textContent = Date.now();
 //84600000 equals the number of miliseconds in one day.
 
 // Days since last visit
-let today = new Date("0");
+let today = Date.now();
+let Vissince = localStorage.getItem("visits-ul");
 
-let dayssince = (Date.now() - Vissince) / 84600000;
+if (!Vissince){
+	dayssinceOutput.innerHTML = "Welcome to the chamber";
+}else{
+	console.log(Vissince)
+	let dayssince = (today- Vissince) / 84600000;
+	dayssinceOutput.innerHTML = `${dayssince.toFixed(0)} days`;
+}
 
-dayssinceOutput.innerHTML = `${dayssince.toFixed(0)} days`;
 
+/*if(Vissince.Number() == 0 ){
+	dayssinceOutput.textContent = 0;
+}else{
+	dayssinceOutput = (Date.now() - Vissince) / 84600000;
+}*/
+
+
+localStorage.setItem("visits-ul", today);
 
 
 
