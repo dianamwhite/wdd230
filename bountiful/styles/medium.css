@@ -1,5 +1,10 @@
 @media only screen and (min-width: 32.5em) {
+/*logo*/
+figure.logo img{
+    padding-top: 1em;
+}
 
+    /*main*/
 
 
 

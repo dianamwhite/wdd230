@@ -1,3 +1,4 @@
+
 header{
     background-color: #E3AE1A;
     width:100%;
@@ -8,13 +9,113 @@ figure.logo img{
     height: 150px; 
     display: block; 
     float: left;
-    
 }
 
 h1{
-    text-align: center;
-    padding-top: 2em;
+    text-align: left;
+    padding-top: 2.7em;
+    padding-right: 5em;
     font-family:'Permanent Marker', cursive;
     font-size: 1.5em;
 }
+/*--Nav--*/
 
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+ nav ul li a{
+    text-decoration: none;
+    display: block;
+    color:black;
+    font-size: 22px;
+ }
+
+ /*--Nav button--*/
+
+ nav button{
+     background-color: transparent;
+     border: none;
+     position: relative;
+     left: 28em;
+     bottom: 8em;
+ }
+ nav ul.open {
+    display:block;
+  }
+ #hambButton span:nth-child(1) {
+    display: block;
+    cursor: pointer;
+  }
+  #hambButton span:nth-child(2) {
+    display:none;
+    cursor: pointer;
+  }
+
+ #hambButton.open span:nth-child(1) {
+    display: none;
+  }
+  #hambButton.open span:nth-child(2) {
+    display: block;
+  }
+
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+  }
+
+  /*main*/
+  main .box1{    
+    background-color:#F7D042;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 20px;
+  }
+
+  .box1 img{
+    width: 400px;
+    margin: 10px;
+  }
+
+  h2{
+      font-size: 2.3em;
+  }
+
+  p{
+    font-size: 18px;
+    text-align: center;
+}
+/*button get it now*/
+.btnget button{
+    background-color: #1d2601;
+    border: none;
+    border-radius: 50px;
+    width: 150px;
+    margin: 20px;
+}
+
+button.getit{
+    color: white;
+    font-size: 1.3em;
+    padding: 10px;
+}
+
+
+.box2{
+    text-align: center;
+}
+  /*--Footer--*/
+
+  footer{
+    background-color: #E3AE1A;
+    width:100%;
+    height: 200px;
+  }
