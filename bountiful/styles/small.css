@@ -33,6 +33,12 @@ nav ul {
     color:black;
     font-size: 22px;
  }
+ a#fb img {
+    width: 30px;
+  }
+  a#in img {
+    width: 30px;
+  }
 
  /*--Nav button--*/
 
