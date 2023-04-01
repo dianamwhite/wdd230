@@ -32,14 +32,17 @@ main .box1{
     grid-row-end: 2;
     margin-top: 3em;
     text-align: left;
-    margin-right: 5em;
+    margin-right: 3em;
 }
 .box1 .btnget{
     grid-column: 2/3;
-    grid-row: 1/2;
-    margin-top: 29em;
-
+    grid-row: 2/3;
 }
-
-
+.box1 h2.drinks{
+    grid-row: 2/3;
+}
+.box2 p{
+    padding-right:8em ;
+    padding-left:8em ;
+}
 }

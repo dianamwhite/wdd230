@@ -76,6 +76,15 @@ nav ul {
   }
 
   /*main*/
+  main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    padding: 20px;
+  }
+
   main .box1{    
     background-color:#F7D042;
     display: flex;
@@ -98,7 +107,26 @@ nav ul {
   p{
     font-size: 18px;
     text-align: center;
+    margin: 30px;
+    padding: 20px;
 }
+
+.box2 img{
+  width: 400px;
+  margin: 10px;
+}
+.box2{
+  text-align: center;
+}
+
+.box3{
+  background-color: #C0AF36;
+  width: 35em;
+}
+.box3 h2{
+  text-align: center;
+}
+
 /*button get it now*/
 .btnget button{
     background-color: #1d2601;
@@ -115,9 +143,6 @@ button.getit{
 }
 
 
-.box2{
-    text-align: center;
-}
   /*--Footer--*/
 
   footer{

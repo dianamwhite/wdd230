@@ -40,28 +40,33 @@
     <!--content-->
     <main>
         <div class="box1">
-            <img src="images/strawberryproduct-image.webp" alt=" images of strawberries">
-            <img src="/bountiful/images/fruits.webp" alt="images of fruits">
             <h2>Welcome to Bountiful Foods</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi aliquet elementum justo, sit amet consequat ligula finibus ut. Donec nec faucibus metus. Phasellus accumsan dolor nec dapibus rutrum. Suspendisse quis erat augue. Donec bibendum vulputate nisi, ac finibus nisi consequat sed. In laoreet nunc ut felis efficitur ornare. Donec et varius eros. Suspendisse condimentum, purus vitae pharetra aliquam, ligula eros blandit urna, at feugiat tortor lacus et mauris. Mauris a luctus nisl. Sed volutpat fringilla lectus, quis vestibulum elit ultricies ac. Cras vulputate efficitur dolor sit amet vehicula. Praesent suscipit velit dapibus rutrum commodo. In aliquam non velit et elementum. Nunc sit amet urna scelerisque, euismod diam id, pellentesque eros. Duis blandit ipsum ac eros semper suscipit.</p>
-        
+            <img src="images/strawberryproduct-image.webp" alt=" images of strawberries">
+            
+            <h2 class="drinks">Our Drinks</h2>
+
             <div class="btnget">
                 <button class="getit">Get It Now</button>
             </div>
         </div>
-
         <div class="box2">
-            <h2>Weather</h2>
-            <figure>
-                <img src="" alt="" id="weather-icon">
-            </figure>
-            <p><span class="temp"></span>&deg;C</p>
-            <p>Humidity:<span class="hum"></span></p>
+            <h2>Carlsbad, California</h2>
+            <img src="images/california-image.webp" alt=" images of Carlsbad California">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi aliquet elementum justo, sit amet consequat ligula finibus ut. Donec nec faucibus metus. Phasellus accumsan dolor nec dapibus rutrum. Suspendisse quis erat augue. Donec bibendum vulputate nisi, ac finibus nisi consequat sed. In laoreet nunc ut felis efficitur ornare. Donec et varius eros. Suspendisse condimentum, purus vitae pharetra aliquam, ligula eros blandit urna, at feugiat tortor lacus et mauris. Mauris a luctus nisl. Sed volutpat fringilla lectus, quis vestibulum elit ultricies ac. Cras vulputate efficitur dolor sit amet vehicula. Praesent suscipit velit dapibus rutrum commodo. In aliquam non velit et elementum. Nunc sit amet urna scelerisque, euismod diam id, pellentesque eros. Duis blandit ipsum ac eros semper suscipit.</p>
         </div>
 
         <div class="box3">
-            <h2>Our Drinks</h2>
+            <h2>Weather Carlsbad, California</h2>
+            <div id="weather">
+                <p><span id="temperature"></span>ºF</p>
 
+                <figure>
+                    <img src="" alt="" id="weather-icon">
+                </figure>
+                <p>Today is <span id="description"></span></p>
+                <p>Humidity:<span id="humidity"></span>%</p>
+            </div>
         </div>
     </main>
     <!--footer-->
@@ -71,5 +76,6 @@
         </figure>
         <h1>Bountiful Foods</h1>
     </footer>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>
