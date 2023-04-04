@@ -51,7 +51,7 @@ async function apiFetch(){
 
    async function displaynextweather(weather) {
     console.log(weather);
-
+                                                            
     const tomorrow = weather.list[9].main.temp;
     const weather3 = weather.list[17].main.temp;
     const weather4 = weather.list[25].main.temp;

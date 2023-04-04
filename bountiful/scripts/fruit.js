@@ -32,16 +32,3 @@ async function displayfruit(data){
  });
 }
 
-
-
-/*select1.addEventListener("click", getFruitData, {
-    display.classList.add("freshOptions1");
-})
-
-select2.addEventListener("click", getFruitData, {
-    display.classList.add("freshOptions2");
-})
-
-select3.addEventListener("click", getFruitData,{
-    display.classList.add("freshOptions3");
-})*/
