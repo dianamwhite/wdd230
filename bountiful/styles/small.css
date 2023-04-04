@@ -158,10 +158,14 @@ nav ul {
 }
 
 button.getit{
-    color: white;
     font-size: 1.3em;
     padding: 10px;
 }
+.btnget button a{
+  text-decoration: none;
+  color: white;
+}
+
  /*--FRESH--*/
   /*--form--*/
   form #info{
@@ -171,7 +175,7 @@ button.getit{
   form #info label{
     margin: 10px;
   }
-  form #info label input{
+  form #info label input {
     width: 20em;
     border: none;
     border-bottom: 1px solid rgba(128, 128, 128, 0.236);
@@ -196,7 +200,7 @@ button.getit{
   margin:10px ;
 }
 
-.Btnsubmit input{
+.Btnsubmit input {
  
   margin-left: .9em;
   width: 25rem;
