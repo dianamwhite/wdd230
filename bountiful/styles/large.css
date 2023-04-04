@@ -5,27 +5,28 @@ nav button {
   }
 nav ul#primaryNav {
     display: flex;
-    justify-content: center;
+    justify-content: end;
     gap: 20px;
     position: relative;
-    bottom: 11em;
-    left: 9em;
+    bottom: 5em;
+    right: 5em;
     }
 main .box1{    
     width: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 400px 500px;
+    padding: 6em;
 }
 .box1 img{
     grid-column: 1/2;
-    margin: 0;
 }
 
 
 .box1 h2{
     grid-column: 2/3;
     grid-row-start: 1;
-    margin-bottom: 12em;
+    margin-bottom: 14em;
+    margin-left: 1em;
 }
 .box1 p{
     grid-column: 2/3;
@@ -33,16 +34,18 @@ main .box1{
     margin-top: 3em;
     text-align: left;
     margin-right: 3em;
+
 }
 .box1 .btnget{
     grid-column: 2/3;
     grid-row: 2/3;
+    margin-left: 2em;
 }
 .box1 h2.drinks{
     grid-row: 2/3;
 }
 .box2 p{
-    padding-right:8em ;
-    padding-left:8em ;
+    padding-right:15rem ;
+    padding-left:15rem ;
 }
 }

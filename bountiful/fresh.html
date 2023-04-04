@@ -1,54 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bountiful Foods Project </title>
-    <meta name="description" content="Diana Bountiful Foods Website">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bountiful Foods Project</title>
+    <meta name="description" content="Diana Bountiful Foods Website" />
     <!--styles link-->
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500&family=Permanent+Marker&family=Poppins&family=Tiro+Devanagari+Hindi&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/small.css">
-    <link rel="stylesheet" href="styles/medium.css">
-    <link rel="stylesheet" href="styles/large.css">
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500&family=Permanent+Marker&family=Poppins&family=Tiro+Devanagari+Hindi&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/small.css" />
+    <link rel="stylesheet" href="styles/medium.css" />
+    <link rel="stylesheet" href="styles/large.css" />
+  </head>
+  <body>
     <!-- Header -->
     <header>
-        <figure class="logo">
-            <img src="images/logo-image.png" alt="Logo of Bountiful">
-        </figure>
-        <h1>Bountiful Foods</h1>
+      <figure class="logo">
+        <img src="images/logo-image.png" alt="Logo of Bountiful" />
+      </figure>
+      <h1>Bountiful Foods</h1>
     </header>
     <!--Nav-->
-        <!--Nav-->
-        <nav>
-            <button id="hambButton" class="open">
-                <span>x</span><span>&#9776;</span>
-            </button>
-            <ul id="primaryNav" class="close">
-                <li class="active"><a href="home.html">Home</a></li>
-                <li class="active"><a href="fresh.html">Fresh</a></li>
-                <li class="active"><a href="aboutus.html">About Us</a></li>
-                <li>
-                    <a id="fb" href="www.facebook.com"><img src="images/facebook-icon.png" alt="facebook-icon"></a>
-                </li>
-                <li>
-                    <a id="in" href="www.linked.com"><img src="images/linked-icon.png" alt="linked-icon"></a>
-                </li>
-            </ul>
-        </nav>
+    <!--Nav-->
+    <nav>
+      <button id="hambButton" class="open">
+        <span>x</span><span>&#9776;</span>
+      </button>
+      <ul id="primaryNav" class="close">
+        <li class="active"><a href="home.html">Home</a></li>
+        <li class="active"><a href="fresh.html">Fresh</a></li>
+        <li class="active"><a href="aboutus.html">About Us</a></li>
+      </ul>
+    </nav>
     <!--content-->
-    <main>
-        <h2>Fresh</h2>
+    <main class="fresh">
+      <h2>Fresh</h2>
+      <p>Provide us with information for your drink</p>
+      <form>
+        <div id="info">
+          <label class="top">Name*<input type="text" name="fname" required/></label>
+          <label class="top">Phone*<input type="tel" name="phone" required/></label>
+          <label class="top">E-mail*<input type="email" name="email" required/></label>
+        </div>
+        <div class="selectoptions">
+          <label class="choice" id="choice"> Select a Choice </label>
+
+          <div class="opciones">
+
+            <select id="freshoptions1" name="option1" class="freshoptions1">
+                <option value="First Choice"> choose </option>
+            </select>
+            <select id="freshOptions2" name="option2" class="freshoptions2">
+                <option value="Second Choice"> choose </option>
+            </select>
+            <select id="freshOptions3" name="option3" class="freshoptions3">
+                <option value="Third Choice"> choose </option>
+            </select>
+          </div>
+        </div>
+        
+        <div id="message">
+          <label class="top">
+          Special Instructions
+            <textarea
+              placeholder="message"
+              id="InputMessage"
+              rows="3"
+              name="message"
+              class="mensaje"></textarea>
+          </label>
+        </div>
+        <div class="Btnsubmit" id="button">
+          <input type="submit" value="Submit" class="submitBtn">
+        </div>
+      </form>
     </main>
     <!--footer-->
     <footer>
-        <figure class="logo">
-            <img src="images/logo-image.png" alt="Logo of Bountiful">
-        </figure>
-        <h1>Bountiful Foods</h1>
+      <figure class="logo">
+        <img src="images/logo-image.png" alt="Logo of Bountiful" />
+      </figure>
+      <h1>Bountiful Foods</h1>
+      <div class="social-icons">
+        <a id="fb" href="www.facebook.com"><img src="images/facebook-icon.png" alt="facebook-icon"></a>
+        <a id="link" href="www.linked.com"><img src="images/linked-icon.png" alt="linked-icon"></a>
+        <a id="in" href="www.instagram.com"><img src="images/instagram-icon.png" alt="instagram-icon"></a>
+    </div>
+      <div class="footerbox">
+        &copy; <span id="year"></span> Diana White | WDD 230 Project | Last Modification <span id="lastupdated"></span>
+      </div>
     </footer>
-</body>
+    <script src="scripts/main.js"></script>
+    <script src="scripts/fruit.js"></script>
+  </body>
 </html>

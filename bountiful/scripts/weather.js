@@ -39,3 +39,28 @@ async function apiFetch(){
         weatherIcon.setAttribute('alt', desc);
         captionDesc.textContent = desc;
     };
+
+    //next day weather 3//
+    //fetch the next days weather//
+   async function getnextweather(){
+       const response = await fetch('https://api.openweathermap.org/data/2.5/forecast?q=Carlsbad&appid=43769af0eeae93d592ac47faaefbc782&units=imperiall');
+       const data = await response.json();
+       console.log(data);
+       return data;
+   }
+   getnextweather();
+
+   async function displaynextweather() {
+       const weather = await getnextweather();
+      
+   }
+    const tomorrow = weather.list[9].main.temp;
+    const weather3 = weather.list[17].main.temp;
+    const weather4 = weather.list[25].main.temp;
+
+    temperatura1.innerHTML = `${weather.list[9].main.temp.toFixed(0)}`;
+    temperatura2.innerHTML = `${weather.list[17].main.temp.toFixed(0)}`;
+    temperatura3.innerHTML = `${weather.list[25].main.temp.toFixed(0)}`;
+    
+
+   

@@ -1,25 +1,28 @@
 
 header{
     background-color: #E3AE1A;
-    width:100%;
-    height: 200px;
+    height: 100px;
 }
 
 figure.logo img{
-    height: 150px; 
+    height: 60px; 
     display: block; 
     float: left;
+    margin-top: 1em;
 }
 
 h1{
     text-align: left;
-    padding-top: 2.7em;
+    padding-top: 1.5em;
     padding-right: 5em;
     font-family:'Permanent Marker', cursive;
     font-size: 1.5em;
 }
 /*--Nav--*/
-
+nav{
+  background-color: #E3AE1A;
+  padding-bottom: 10px;
+}
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -32,22 +35,22 @@ nav ul {
     display: block;
     color:black;
     font-size: 22px;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-align:right;
+    padding: 5px;
  }
- a#fb img {
-    width: 30px;
-  }
-  a#in img {
-    width: 30px;
-  }
 
  /*--Nav button--*/
 
  nav button{
-     background-color: transparent;
-     border: none;
-     position: relative;
-     left: 28em;
-     bottom: 8em;
+    background-color: transparent;
+    border: none;
+    float: right;
+    line-height: 80px;
+    font-size: 40px;
+    position: relative;
+    bottom: 6rem;
+    right: 2rem
  }
  nav ul.open {
     display:block;
@@ -81,7 +84,7 @@ nav ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 30px;
+    margin: 20px;
     padding: 20px;
   }
 
@@ -91,9 +94,11 @@ nav ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
     padding: 20px;
   }
+
 
   .box1 img{
     width: 400px;
@@ -101,7 +106,9 @@ nav ul {
   }
 
   h2{
-      font-size: 2.3em;
+      font-size: 2.1em;
+      text-align: center;
+      font-family: 'Tiro Devanagari Hindi', serif;
   }
 
   p{
@@ -109,6 +116,7 @@ nav ul {
     text-align: center;
     margin: 30px;
     padding: 20px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .box2 img{
@@ -117,7 +125,12 @@ nav ul {
 }
 .box2{
   text-align: center;
+  margin: 0 auto;
 }
+.box2 h2{
+  text-align: center;
+}
+/*box3*/
 
 .box3{
   background-color: #C0AF36;
@@ -125,6 +138,14 @@ nav ul {
 }
 .box3 h2{
   text-align: center;
+}
+.box3 #weather figure {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.box3 #weather figure img{
+  width: 5em;
 }
 
 /*button get it now*/
@@ -141,12 +162,87 @@ button.getit{
     font-size: 1.3em;
     padding: 10px;
 }
+ /*--FRESH--*/
+  /*--form--*/
+  form #info{
+    display: flex;
+    flex-direction: column;
+  }
+  form #info label{
+    margin: 10px;
+  }
+  form #info label input{
+    width: 20em;
+    border: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.236);
+    margin-bottom: 25px;
+  }
 
+ #message{
+    margin: 10px;
+  }
+
+  #message textarea{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(128, 128, 128, 0.448);
+    width: 25em;
+  }
+  .selectoptions label{
+    margin-left: 9px;
+
+  }
+.opciones select{
+  margin:10px ;
+}
+
+.Btnsubmit input{
+ 
+  margin-left: .9em;
+  width: 25rem;
+  height: 1.7rem;
+  color:white;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  background-color: #1d2601;
+}
+
+/*--ABOUT US--*/
+
+
+main.aboutus {
+  width: 90%;
+  margin: 0 auto;
+}
 
   /*--Footer--*/
 
   footer{
     background-color: #E3AE1A;
     width:100%;
-    height: 200px;
+    height: 150px;
   }
+
+  .footerbox{
+    text-align: center;
+    margin-top: 3.5em;
+  }
+
+  .social-icons{
+      display: block; 
+      float: right;
+      position: relative;
+      bottom: 3em;
+      right: 2em;
+    }
+    a#fb img {
+      width: 30px;
+  
+    }
+    a#in img {
+      width: 30px;
+    }
+    a#link img {
+      width: 30px;
+    }
