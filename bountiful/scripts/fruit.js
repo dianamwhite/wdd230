@@ -16,10 +16,10 @@ async function getFruitData(url){
 getFruitData(url);
 
 async function displayfruit(data){
-    console.log(data);
+    console.log(data);              //loop, por cada seleccion la data se mostrara
     data.forEach(fruit => {
     
-        let option1 = document.createElement("option");
+        let option1 = document.createElement("option");     //displays the options fruits
         let option2 = document.createElement("option");
         let option3 = document.createElement("option");
         option1.innerHTML = fruit.name;
