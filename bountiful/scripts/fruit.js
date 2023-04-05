@@ -63,7 +63,7 @@ async function displayfruit(data){
         }) 
 }
 
-//display order//
+
 
 
    

@@ -149,21 +149,23 @@ nav ul {
 }
 
 /*button get it now*/
-.btnget button{
+.btnget{
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+.btnget a{
     background-color: #1d2601;
     border: none;
     border-radius: 50px;
     width: 150px;
     margin: 20px;
+    text-decoration: none;
+    color: white;
 }
 
-button.getit{
-    font-size: 1.3em;
+a.getit{
+    font-size: 1.2em;
     padding: 10px;
-}
-.btnget button a{
-  text-decoration: none;
-  color: white;
 }
 
  /*--FRESH--*/
