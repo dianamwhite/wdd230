@@ -32,25 +32,33 @@ async function displayfruit(data){
  });
 }
 
-//display order
+//display order//
 
-const displayorder = (order) =>{
-    const info = document.querySelector('div#info');
-
-    order.forEach((order)=>{
+async function diplayorder() {
 
    let Name = document.createElement('p');
    let phone = document.createElement('p');
    let email = document.createElement('p');
 
-   Name.textContent = `${order.Name}`;
-   phone.textContent = `${order.phone}`;
-   email.textContent = `${order.email}`;
+   Name.textContent = `${Name}`;
+   phone.textContent = `${phone}`;
+   email.textContent = `${email}`;
 
-    info
+   showorder.appendChild(Name);
+   showorder.appendChild(phone);
+   showorder.appendChild(email);
 
-})
+   const pedido = document.querySelector('div.submision');
+
+    /*const name = document.querySelector("#name").value;
+    const phone = document.querySelector("#phone").value;
+    const email = document.querySelector("#email").value;
+    const fruit1 = document.querySelector("freshOptions1").value;
+    const fruit2 = document.querySelector("freshOptions2").value;
+    const fruit3 = document.querySelector("freshOptions3").value;
+    const instructions = document.querySelector("#InputMessage").value;*/
 }
+
 
 
 

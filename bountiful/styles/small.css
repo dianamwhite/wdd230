@@ -220,6 +220,14 @@ main.aboutus {
   margin: 0 auto;
 }
 
+main p a#map{
+  text-decoration: none;
+  color: black;
+}
+.aboutus img {
+  max-width: 450px;
+}
+
   /*--Footer--*/
 
   footer{
