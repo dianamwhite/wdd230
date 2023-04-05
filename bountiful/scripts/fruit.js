@@ -28,36 +28,48 @@ async function displayfruit(data){
         select1.appendChild(option1);
         select2.appendChild(option2);
         select3.appendChild(option3);
-    
+
+        
  });
+        const pedido = document.querySelector('.submitBtn');
+        pedido.addEventListener("click", () => {   
+
+            let Name = document.createElement('p');
+            let phone = document.createElement('p');
+            let email = document.createElement('p');
+         
+            const nombre = document.querySelector("#name").value;
+            const tel = document.querySelector("#phone").value;
+            const mail = document.querySelector("#email").value;
+            console.log(nombre);
+            console.log(tel);
+            console.log(mail);
+            /*const fruit1 = document.querySelector("freshOptions1").value;
+            const fruit2 = document.querySelector("freshOptions2").value;
+            const fruit3 = document.querySelector("freshOptions3").value;
+            const instructions = document.querySelector("#InputMessage").value;*/
+         
+            Name.innerHTML = nombre;
+            phone.innerHTML = tel;
+            email.innerHTML= mail;
+            console.log(Name);
+            console.log(phone);
+            console.log(email);
+         
+            let showorder = document.querySelector(".submision");
+            showorder.append(Name);
+            showorder.append(phone);
+            showorder.append(email);
+        }) 
 }
 
 //display order//
 
-async function diplayorder() {
 
-   let Name = document.createElement('p');
-   let phone = document.createElement('p');
-   let email = document.createElement('p');
+   
 
-   Name.textContent = `${Name}`;
-   phone.textContent = `${phone}`;
-   email.textContent = `${email}`;
+    
 
-   showorder.appendChild(Name);
-   showorder.appendChild(phone);
-   showorder.appendChild(email);
-
-   const pedido = document.querySelector('div.submision');
-
-    /*const name = document.querySelector("#name").value;
-    const phone = document.querySelector("#phone").value;
-    const email = document.querySelector("#email").value;
-    const fruit1 = document.querySelector("freshOptions1").value;
-    const fruit2 = document.querySelector("freshOptions2").value;
-    const fruit3 = document.querySelector("freshOptions3").value;
-    const instructions = document.querySelector("#InputMessage").value;*/
-}
 
 
 
