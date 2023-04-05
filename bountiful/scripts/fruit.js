@@ -32,3 +32,25 @@ async function displayfruit(data){
  });
 }
 
+//display order
+
+const displayorder = (order) =>{
+    const info = document.querySelector('div#info');
+
+    order.forEach((order)=>{
+
+   let Name = document.createElement('p');
+   let phone = document.createElement('p');
+   let email = document.createElement('p');
+
+   Name.textContent = `${order.Name}`;
+   phone.textContent = `${order.phone}`;
+   email.textContent = `${order.email}`;
+
+    info
+
+})
+}
+
+
+
