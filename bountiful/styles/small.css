@@ -156,7 +156,7 @@ nav ul {
 .btnget a{
     background-color: #1d2601;
     border: none;
-    border-radius: 50px;
+    border-radius: 25px;
     width: 150px;
     margin: 20px;
     text-decoration: none;
@@ -164,8 +164,8 @@ nav ul {
 }
 
 a.getit{
-    font-size: 1.2em;
-    padding: 10px;
+    font-size: 1.1em;
+    padding: 15px;
 }
 
  /*--FRESH--*/

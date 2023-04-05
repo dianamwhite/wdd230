@@ -40,6 +40,8 @@ main .box1{
     grid-column: 2/3;
     grid-row: 2/3;
     margin-left: 2em;
+    position: relative;
+    bottom: 2em;
 }
 .box1 h2.drinks{
     grid-row: 2/3;
